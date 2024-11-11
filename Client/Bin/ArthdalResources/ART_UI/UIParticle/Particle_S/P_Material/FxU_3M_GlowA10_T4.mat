@@ -1,0 +1,5 @@
+Diffuse=T_Base_White
+Other[0]=FxU_GlowA05_Albe
+Other[1]=FxU_Comp_GlowA08_Albe
+Other[2]=FxU_MaskA01_Mask
+Other[3]=FxU_CircleA12_Albe

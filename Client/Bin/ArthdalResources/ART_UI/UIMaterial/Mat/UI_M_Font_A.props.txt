@@ -1,0 +1,178 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[19] =
+                {
+                    ParameterInfos[0] = { Name=Color_Dissolve_Softness(Default=0) }
+                    ParameterInfos[1] = { Name=Speed_X }
+                    ParameterInfos[2] = { Name=Speed_Y }
+                    ParameterInfos[3] = { Name=Color_Dissolve_Amount(Default=0) }
+                    ParameterInfos[4] = { Name=Density }
+                    ParameterInfos[5] = { Name=Alpha_Dissolve_Amount(Default=0) }
+                    ParameterInfos[6] = { Name=Curve_Color }
+                    ParameterInfos[7] = { Name=Speed_V }
+                    ParameterInfos[8] = { Name=TexSize_U }
+                    ParameterInfos[9] = { Name=ColorBoost }
+                    ParameterInfos[10] = { Name=TexSize_V }
+                    ParameterInfos[11] = { Name=Offset }
+                    ParameterInfos[12] = { Name=Param }
+                    ParameterInfos[13] = { Name=Cycle }
+                    ParameterInfos[14] = { Name=Speed_U }
+                    ParameterInfos[15] = { Name=Alpha_Dissolve_Softness(Default=0) }
+                    ParameterInfos[16] = { Name=ColorDensity }
+                    ParameterInfos[17] = { Name=Time }
+                    ParameterInfos[18] = { Name=Rotator Angle }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Color02 }
+                    ParameterInfos[1] = { Name=Color01 }
+                    ParameterInfos[2] = { Name=TexAlphaChannel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[19] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1.7
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 128
+            ScalarValues[9] = 1
+            ScalarValues[10] = 128
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+            ScalarValues[16] = 3
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=1, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[19] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = Color_Dissolve_Softness(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Speed_X, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Speed_Y, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0
+        Name = Color_Dissolve_Amount(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=1.7, Name=Density, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0
+        Name = Alpha_Dissolve_Amount(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0, Name=Curve_Color, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Speed_V, Group=None }
+    CollectedScalarParameters[8] = { Value=128, Name=TexSize_U, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=ColorBoost, Group=None }
+    CollectedScalarParameters[10] = { Value=128, Name=TexSize_V, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Offset, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Param, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Cycle, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Speed_U, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0
+        Name = Alpha_Dissolve_Softness(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=3, Name=ColorDensity, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=Time, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=Rotator Angle, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = Color02
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=1 }
+        Name = Color01
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = TexAlphaChannel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

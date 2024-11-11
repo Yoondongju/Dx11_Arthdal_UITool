@@ -1,0 +1,138 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Flare0004.T_Flare0004'
+    ReferencedTextures[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0003.T_Glow0003'
+    ReferencedTextures[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Gr0022.T_Gr0022'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Tx1_Offset(Pan)_V(Default=0) }
+                    ParameterInfos[1] =
+                    {
+                        Name = Tx1_Scale(Tile)_Control_Both_UVs(Default=1)
+                    }
+                    ParameterInfos[2] = { Name=Tx0_Offset(Pan)_U(Default=0) }
+                    ParameterInfos[3] = { Name=Tx0_Loop Speed }
+                    ParameterInfos[4] =
+                    {
+                        Name = Tx0_Scale(Tile)_Control_Both_UVs(Default=1)
+                    }
+                    ParameterInfos[5] = { Name=Tx1_Offset(Pan)_U(Default=0) }
+                    ParameterInfos[6] = { Name=Tx0_Offset(Pan)_V(Default=0) }
+                    ParameterInfos[7] = { Name=Tx1_Loop Speed }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=TxMask1 }
+                    ParameterInfos[1] = { Name=Tx1 }
+                    ParameterInfos[2] = { Name=Tx0_ }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0, 1, 0, 1, 1, 0, 0, 1 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Gr0022.T_Gr0022'
+            TextureValues[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Flare0004.T_Flare0004'
+            TextureValues[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0003.T_Glow0003'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Flare0004.T_Flare0004'
+        ReferencedTextures[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0003.T_Glow0003'
+        ReferencedTextures[3] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Gr0022.T_Gr0022'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Gr0022.T_Gr0022'
+        Name = TxMask1
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Flare0004.T_Flare0004'
+        Name = Tx1
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0003.T_Glow0003'
+        Name = Tx0_
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = Tx1_Offset(Pan)_V(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = Tx1_Scale(Tile)_Control_Both_UVs(Default=1)
+        Group = None
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0
+        Name = Tx0_Offset(Pan)_U(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=Tx0_Loop Speed, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = Tx0_Scale(Tile)_Control_Both_UVs(Default=1)
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0
+        Name = Tx1_Offset(Pan)_U(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0
+        Name = Tx0_Offset(Pan)_V(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=1, Name=Tx1_Loop Speed, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

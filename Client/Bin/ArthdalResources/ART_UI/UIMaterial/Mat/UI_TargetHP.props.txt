@@ -1,0 +1,61 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0001.T_Glow0001'
+    ReferencedTextures[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Guage.T_Guage'
+    ReferencedTextures[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Wave0004.T_Wave0004'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Boost }
+                    ParameterInfos[1] = { Name=SizeY }
+                    ParameterInfos[2] = { Name=Scale }
+                    ParameterInfos[3] = { Name=SizeX }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 0, 12, 4, 364 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Guage.T_Guage'
+        ReferencedTextures[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Wave0004.T_Wave0004'
+        ReferencedTextures[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0001.T_Glow0001'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Boost, Group=None }
+    CollectedScalarParameters[1] = { Value=12, Name=SizeY, Group=None }
+    CollectedScalarParameters[2] = { Value=4, Name=Scale, Group=None }
+    CollectedScalarParameters[3] = { Value=364, Name=SizeX, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

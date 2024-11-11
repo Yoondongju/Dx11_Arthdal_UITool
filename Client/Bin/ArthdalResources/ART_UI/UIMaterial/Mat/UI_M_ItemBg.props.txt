@@ -1,0 +1,156 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=EffectMask_Position_X }
+                    ParameterInfos[1] = { Name=EffectMask_Scale }
+                    ParameterInfos[2] = { Name=Bg Boost }
+                    ParameterInfos[3] = { Name=Effect Boost }
+                    ParameterInfos[4] = { Name=EffectMask_Position_Y }
+                    ParameterInfos[5] = { Name=Frame Boost }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Bg Color }
+                    ParameterInfos[1] = { Name=Effec Color }
+                    ParameterInfos[2] = { Name=Frame Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Frame Texture }
+                    ParameterInfos[1] = { Name=Effect Texture02 }
+                    ParameterInfos[2] = { Name=Effect Texture01 }
+                    ParameterInfos[3] = { Name=ParticleTexture }
+                    ParameterInfos[4] = { Name=Bg Texture }
+                    ParameterInfos[5] = { Name=Effect Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0, 1.1, 1, 10, 0.1, 1 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0.577581, G=0.300544, B=0.01096, A=1 }
+            VectorValues[1] = { R=1, G=0.729384, B=0.039473, A=1 }
+            VectorValues[2] = { R=1, G=0.603828, B=0, A=1 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+            TextureValues[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+            TextureValues[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+            TextureValues[3] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+            TextureValues[4] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+            TextureValues[5] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = Frame Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = Effect Texture02
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = Effect Texture01
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = ParticleTexture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = Bg Texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = Effect Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=EffectMask_Position_X, Group=None }
+    CollectedScalarParameters[1] = { Value=1.1, Name=EffectMask_Scale, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Bg Boost, Group=None }
+    CollectedScalarParameters[3] = { Value=10, Name=Effect Boost, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.1
+        Name = EffectMask_Position_Y
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=1, Name=Frame Boost, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.577581, G=0.300544, B=0.01096, A=1 }
+        Name = Bg Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.729384, B=0.039473, A=1 }
+        Name = Effec Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0.603828, B=0, A=1 }
+        Name = Frame Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

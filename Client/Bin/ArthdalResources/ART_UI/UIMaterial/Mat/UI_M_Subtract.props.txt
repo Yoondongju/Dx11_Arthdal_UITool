@@ -1,0 +1,260 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[19] =
+                {
+                    ParameterInfos[0] =
+                    {
+                        Name = Tx2_Rotation_UVs(-0.25=90Degree)(Default=0)
+                    }
+                    ParameterInfos[1] = { Name=Time_Tx1_Offset(Pan)_V(Default=0) }
+                    ParameterInfos[2] = { Name=Tx2_Scale(Tile)_U(Default=1) }
+                    ParameterInfos[3] = { Name=Tx1_Offset(Pan)_V(Default=0) }
+                    ParameterInfos[4] = { Name=Time_Tx1_Offset(Pan)_U(Default=0) }
+                    ParameterInfos[5] = { Name=Tx2_Scale(Tile)_V(Default=1) }
+                    ParameterInfos[6] =
+                    {
+                        Name = Tx1_Scale(Tile)_Control_Both_UVs(Default=1)
+                    }
+                    ParameterInfos[7] =
+                    {
+                        Name = Tx2_Scale(Tile)_Control_Both_UVs(Default=1)
+                    }
+                    ParameterInfos[8] =
+                    {
+                        Name = Tx1_Rotation_UVs(-0.25=90Degree)(Default=0)
+                    }
+                    ParameterInfos[9] = { Name=Time_Tx1_Rotation_UVs(Default=0) }
+                    ParameterInfos[10] = { Name=Tx1_Scale(Tile)_V(Default=1) }
+                    ParameterInfos[11] = { Name=Time_Tx2_Offset(Pan)_V(Default=0) }
+                    ParameterInfos[12] = { Name=Tx1_Scale(Tile)_U(Default=1) }
+                    ParameterInfos[13] = { Name=Tx1_Offset(Pan)_U(Default=0) }
+                    ParameterInfos[14] = { Name=Time_Tx2_Rotation_UVs(Default=0) }
+                    ParameterInfos[15] = { Name=Tx2_Offset(Pan)_U(Default=0) }
+                    ParameterInfos[16] = { Name=Tx2_Offset(Pan)_V(Default=0) }
+                    ParameterInfos[17] = { Name=Value }
+                    ParameterInfos[18] = { Name=Time_Tx2_Offset(Pan)_U(Default=0) }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Alpha_Channel }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Texture1 }
+                    ParameterInfos[1] = { Name=Texture2 }
+                    ParameterInfos[2] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[19] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0
+            ScalarValues[17] = -1
+            ScalarValues[18] = 0
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+            TextureValues[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+            TextureValues[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = Texture1
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = Texture2
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[19] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = Tx2_Rotation_UVs(-0.25=90Degree)(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = Time_Tx1_Offset(Pan)_V(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 1
+        Name = Tx2_Scale(Tile)_U(Default=1)
+        Group = None
+    }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0
+        Name = Tx1_Offset(Pan)_V(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0
+        Name = Time_Tx1_Offset(Pan)_U(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 1
+        Name = Tx2_Scale(Tile)_V(Default=1)
+        Group = None
+    }
+    CollectedScalarParameters[6] =
+    {
+        Value = 1
+        Name = Tx1_Scale(Tile)_Control_Both_UVs(Default=1)
+        Group = None
+    }
+    CollectedScalarParameters[7] =
+    {
+        Value = 1
+        Name = Tx2_Scale(Tile)_Control_Both_UVs(Default=1)
+        Group = None
+    }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0
+        Name = Tx1_Rotation_UVs(-0.25=90Degree)(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0
+        Name = Time_Tx1_Rotation_UVs(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = 1
+        Name = Tx1_Scale(Tile)_V(Default=1)
+        Group = None
+    }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0
+        Name = Time_Tx2_Offset(Pan)_V(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = 1
+        Name = Tx1_Scale(Tile)_U(Default=1)
+        Group = None
+    }
+    CollectedScalarParameters[13] =
+    {
+        Value = 0
+        Name = Tx1_Offset(Pan)_U(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0
+        Name = Time_Tx2_Rotation_UVs(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0
+        Name = Tx2_Offset(Pan)_U(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 0
+        Name = Tx2_Offset(Pan)_V(Default=0)
+        Group = None
+    }
+    CollectedScalarParameters[17] = { Value=-1, Name=Value, Group=None }
+    CollectedScalarParameters[18] =
+    {
+        Value = 0
+        Name = Time_Tx2_Offset(Pan)_U(Default=0)
+        Group = None
+    }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Alpha_Channel
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

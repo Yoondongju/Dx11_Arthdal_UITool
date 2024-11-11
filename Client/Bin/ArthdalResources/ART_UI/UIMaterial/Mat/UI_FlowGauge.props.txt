@@ -1,0 +1,191 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0001.T_Glow0001'
+    ReferencedTextures[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Square0000.T_Square0000'
+    ReferencedTextures[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Wave0004.T_Wave0004'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=02. Panner_V_Time }
+                    ParameterInfos[1] = { Name=01. Panner_U_Time }
+                    ParameterInfos[2] = { Name=01. Panner_V }
+                    ParameterInfos[3] = { Name=02. Panner_U }
+                    ParameterInfos[4] = { Name=02. Scale_V }
+                    ParameterInfos[5] = { Name=Tx2. SpeedY }
+                    ParameterInfos[6] = { Name=ColorBoost }
+                    ParameterInfos[7] = { Name=02. Panner_U_Time }
+                    ParameterInfos[8] = { Name=02. Scale_U }
+                    ParameterInfos[9] = { Name=01. Panner_V_Time }
+                    ParameterInfos[10] = { Name=01. Scale_V }
+                    ParameterInfos[11] = { Name=Texcord_Add02 }
+                    ParameterInfos[12] = { Name=02. Panner_V }
+                    ParameterInfos[13] = { Name=AlphaBoost }
+                    ParameterInfos[14] = { Name=01. Panner_U }
+                    ParameterInfos[15] = { Name=Texcord_Add01 }
+                    ParameterInfos[16] = { Name=01. Scale_U }
+                    ParameterInfos[17] = { Name=Tx2. SpeedX }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=01. Texture Channel }
+                    ParameterInfos[1] = { Name=Highlight }
+                    ParameterInfos[2] = { Name=02. Texture Channel }
+                    ParameterInfos[3] = { Name=MainColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=02. Sub Texture }
+                    ParameterInfos[1] = { Name=01. Texture }
+                    ParameterInfos[2] = { Name=FlowTexture }
+                    ParameterInfos[3] = { Name=FlowTexture_02 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[18] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.0012
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+            ScalarValues[16] = 1
+            ScalarValues[17] = -0.065
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0.306039, G=0.010197, B=0.791298, A=1 }
+            VectorValues[2] = { R=1, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0.042509, G=0.000682, B=0.151042, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Square0000.T_Square0000'
+            TextureValues[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Square0000.T_Square0000'
+            TextureValues[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Wave0004.T_Wave0004'
+            TextureValues[3] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0001.T_Glow0001'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Square0000.T_Square0000'
+        ReferencedTextures[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Wave0004.T_Wave0004'
+        ReferencedTextures[3] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0001.T_Glow0001'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Square0000.T_Square0000'
+        Name = 02. Sub Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Square0000.T_Square0000'
+        Name = 01. Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Wave0004.T_Wave0004'
+        Name = FlowTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0001.T_Glow0001'
+        Name = FlowTexture_02
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=02. Panner_V_Time, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=01. Panner_U_Time, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=01. Panner_V, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=02. Panner_U, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=02. Scale_V, Group=None }
+    CollectedScalarParameters[5] = { Value=0.0012, Name=Tx2. SpeedY, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=ColorBoost, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=02. Panner_U_Time, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=02. Scale_U, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=01. Panner_V_Time, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=01. Scale_V, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Texcord_Add02, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=02. Panner_V, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=AlphaBoost, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=01. Panner_U, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=Texcord_Add01, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=01. Scale_U, Group=None }
+    CollectedScalarParameters[17] = { Value=-0.065, Name=Tx2. SpeedX, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = 01. Texture Channel
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.306039, G=0.010197, B=0.791298, A=1 }
+        Name = Highlight
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = 02. Texture Channel
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.042509, G=0.000682, B=0.151042, A=1 }
+        Name = MainColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

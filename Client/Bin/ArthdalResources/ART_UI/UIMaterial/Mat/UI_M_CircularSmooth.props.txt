@@ -1,0 +1,86 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Comp_Square0000.T_Comp_Square0000'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=TailSmoothCenter }
+                    ParameterInfos[1] = { Name=Inner Density }
+                    ParameterInfos[2] = { Name=CircularDegree }
+                    ParameterInfos[3] = { Name=Outer Density }
+                    ParameterInfos[4] = { Name=TailSmoothRange }
+                    ParameterInfos[5] = { Name=Outer Radious }
+                    ParameterInfos[6] = { Name=HeadSmoothCenter }
+                    ParameterInfos[7] = { Name=CircularCenter }
+                    ParameterInfos[8] = { Name=HeadSmoothRange }
+                    ParameterInfos[9] = { Name=Inner Radius }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 1, 100, 90, 100, 10, 0.5, 0, 0, 10, 0.1 }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Comp_Square0000.T_Comp_Square0000'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Comp_Square0000.T_Comp_Square0000'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Comp_Square0000.T_Comp_Square0000'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=TailSmoothCenter, Group=None }
+    CollectedScalarParameters[1] = { Value=100, Name=Inner Density, Group=None }
+    CollectedScalarParameters[2] = { Value=90, Name=CircularDegree, Group=None }
+    CollectedScalarParameters[3] = { Value=100, Name=Outer Density, Group=None }
+    CollectedScalarParameters[4] = { Value=10, Name=TailSmoothRange, Group=None }
+    CollectedScalarParameters[5] = { Value=0.5, Name=Outer Radious, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=HeadSmoothCenter, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=CircularCenter, Group=None }
+    CollectedScalarParameters[8] = { Value=10, Name=HeadSmoothRange, Group=None }
+    CollectedScalarParameters[9] = { Value=0.1, Name=Inner Radius, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

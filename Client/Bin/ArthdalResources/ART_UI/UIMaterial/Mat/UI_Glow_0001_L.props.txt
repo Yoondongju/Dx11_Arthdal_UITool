@@ -1,0 +1,125 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0001.T_Glow0001'
+    ReferencedTextures[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Gr0002.T_Gr0002'
+    ReferencedTextures[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Wave0003.T_Wave0003'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Scale01 }
+                    ParameterInfos[1] = { Name=Angle }
+                    ParameterInfos[2] = { Name=Scale02 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=SpeedXY01 }
+                    ParameterInfos[1] = { Name=Color }
+                    ParameterInfos[2] = { Name=SpeedXY02 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                    ParameterInfos[1] = { Name=Texture02 }
+                    ParameterInfos[2] = { Name=Texture01 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 1, 0, 1 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0.095, G=0.012, B=0, A=0 }
+            VectorValues[1] = { R=1, G=0.673128, B=0.002336, A=1 }
+            VectorValues[2] = { R=0.06, G=-0.005, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Gr0002.T_Gr0002'
+            TextureValues[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0001.T_Glow0001'
+            TextureValues[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0001.T_Glow0001'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0001.T_Glow0001'
+        ReferencedTextures[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Gr0002.T_Gr0002'
+        ReferencedTextures[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Wave0003.T_Wave0003'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Gr0002.T_Gr0002'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0001.T_Glow0001'
+        Name = Texture02
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/T_Glow0001.T_Glow0001'
+        Name = Texture01
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Scale01, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Angle, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Scale02, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.095, G=0.012, B=0, A=0 }
+        Name = SpeedXY01
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.673128, B=0.002336, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.06, G=-0.005, B=0, A=0 }
+        Name = SpeedXY02
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

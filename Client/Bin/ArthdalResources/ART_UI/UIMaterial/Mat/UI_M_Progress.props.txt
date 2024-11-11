@@ -1,0 +1,170 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=Speed_V }
+                    ParameterInfos[1] = { Name=Tip Gradient Contrast }
+                    ParameterInfos[2] = { Name=RotateValue }
+                    ParameterInfos[3] = { Name=Tip Thickness }
+                    ParameterInfos[4] = { Name=Radius }
+                    ParameterInfos[5] = { Name=Inner Density }
+                    ParameterInfos[6] = { Name=Color Boost }
+                    ParameterInfos[7] = { Name=Alpha Boost }
+                    ParameterInfos[8] = { Name=CircularDegree }
+                    ParameterInfos[9] = { Name=Outer Density }
+                    ParameterInfos[10] = { Name=Speed_U }
+                    ParameterInfos[11] = { Name=Outer Radious }
+                    ParameterInfos[12] = { Name=CircularCenter }
+                    ParameterInfos[13] = { Name=BGOpacity }
+                    ParameterInfos[14] = { Name=Inner Radius }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Progress Color }
+                    ParameterInfos[1] = { Name=Tip Color }
+                    ParameterInfos[2] = { Name=Channel }
+                    ParameterInfos[3] = { Name=BgColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Mask Texture }
+                    ParameterInfos[1] = { Name=Texture }
+                    ParameterInfos[2] = { Name=Mask Texture_Shape }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 2
+            ScalarValues[2] = 0.6
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 100
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 360
+            ScalarValues[9] = 100
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0.5
+            ScalarValues[12] = 180
+            ScalarValues[13] = 0.4
+            ScalarValues[14] = 0.1
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=0.603828, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=1, G=0, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+            TextureValues[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+            TextureValues[2] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = Mask Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/ART_UI/UIMaterial/Mat_Texture/UIFx_Tx_1px_Default.UIFx_Tx_1px_Default'
+        Name = Mask Texture_Shape
+        Group = None
+    }
+}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Speed_V, Group=None }
+    CollectedScalarParameters[1] = { Value=2, Name=Tip Gradient Contrast, Group=None }
+    CollectedScalarParameters[2] = { Value=0.6, Name=RotateValue, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Tip Thickness, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Radius, Group=None }
+    CollectedScalarParameters[5] = { Value=100, Name=Inner Density, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Color Boost, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Alpha Boost, Group=None }
+    CollectedScalarParameters[8] = { Value=360, Name=CircularDegree, Group=None }
+    CollectedScalarParameters[9] = { Value=100, Name=Outer Density, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Speed_U, Group=None }
+    CollectedScalarParameters[11] = { Value=0.5, Name=Outer Radious, Group=None }
+    CollectedScalarParameters[12] = { Value=180, Name=CircularCenter, Group=None }
+    CollectedScalarParameters[13] = { Value=0.4, Name=BGOpacity, Group=None }
+    CollectedScalarParameters[14] = { Value=0.1, Name=Inner Radius, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.603828, B=0, A=1 }
+        Name = Progress Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Tip Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Channel
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BgColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
