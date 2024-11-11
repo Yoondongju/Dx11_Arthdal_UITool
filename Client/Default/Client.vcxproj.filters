@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{fb79177f-6af2-42b8-a50b-bbc3b63e3f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{36ddfabb-8bb7-40c9-a17f-c7b97483a7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{f44a7a5e-dc7a-460e-9e7e-389f947c35ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Logo">
+      <UniqueIdentifier>{bfceb82a-607f-4756-925e-dbf78b769e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\GamePlay">
+      <UniqueIdentifier>{496bfdc0-36c4-4ae4-a032-6e701acb2b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Loading">
+      <UniqueIdentifier>{5826f108-d734-4b34-a4f6-11a528a309a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Loading\Loader">
+      <UniqueIdentifier>{91d96f38-b5f2-4ed1-a4ee-a6224c0c3cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects">
+      <UniqueIdentifier>{bd09e51d-766a-4343-ad6c-b0e50d2d43cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles">
+      <UniqueIdentifier>{16251933-5a3e-4bdb-8f5e-4d9b7af0d35d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\01.Terrain">
+      <UniqueIdentifier>{e3eb8a4e-7019-4deb-af0f-806abe1a5053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\99.Camera">
+      <UniqueIdentifier>{aae6caeb-858d-4707-9718-e4b878cdd9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\02.Monster">
+      <UniqueIdentifier>{0083e25f-5f57-4f81-8604-c0d79a304e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03.Player">
+      <UniqueIdentifier>{a04ca2a0-1907-4180-8363-482efb3255f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03.Player\Body">
+      <UniqueIdentifier>{6f35df01-e316-4c40-9da6-717b761d7c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03.Player\Weapon">
+      <UniqueIdentifier>{a2e63eda-00f8-4bd2-b6f4-8a17ca24f471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\05.Particle">
+      <UniqueIdentifier>{d5192014-9901-427e-b465-6371d3d77239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\04.Sky">
+      <UniqueIdentifier>{f17d1c89-2983-427e-9a62-7fa4c30d3ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\05.Particle\Snow">
+      <UniqueIdentifier>{9392b809-ca85-48c4-b3c0-fb5fcb8e0c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\03.Player\Explosion">
+      <UniqueIdentifier>{4c7940a8-2d92-4181-8112-21df9a7b6ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\06.Effect">
+      <UniqueIdentifier>{38d0ca3c-8850-4277-ba14-71f70831eac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\07.ForkLift">
+      <UniqueIdentifier>{4f3837c9-f24e-4fd0-b1a8-adf1987df19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\MapTool">
+      <UniqueIdentifier>{92a65ef9-8bfe-4441-8058-a0f5b87c87b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI">
+      <UniqueIdentifier>{488f4a5b-6200-45bb-9258-7e2ee283c011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\PlayerUI">
+      <UniqueIdentifier>{09bc2b29-f63b-4fd2-9f29-5961d8ab60c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\BackGround">
+      <UniqueIdentifier>{21287f1c-586b-4a97-90d2-9e630f240bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\PlayerUI\Inventory">
+      <UniqueIdentifier>{54346f12-d7c8-47f7-ab5d-163057b06dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\PlayerUI\PlayerHp">
+      <UniqueIdentifier>{6aedd7ad-2c86-4585-bd97-b736e4dc1186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\PlayerUI\PlayerHp\Hp">
+      <UniqueIdentifier>{91118721-5d7c-4634-b1f5-a6730b6c420a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\PlayerUI\PlayerHp\Mp">
+      <UniqueIdentifier>{a3ff80fb-2938-4266-806c-c5fc7b267057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\PlayerUI\PlayerHp\PanelHpMp">
+      <UniqueIdentifier>{f6594c60-61b8-442d-9d6b-1bbbc98bafd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\PlayerUI\Inventory\PanelInventory">
+      <UniqueIdentifier>{fe058067-c4bf-43f5-97c3-912b9eb3ca34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\PlayerUI\Inventory\IconInventory">
+      <UniqueIdentifier>{73e75096-3268-467c-8153-05ed393690af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Icon">
+      <UniqueIdentifier>{d4d937f1-7c59-4641-a513-294dc211ffd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\KeyPad">
+      <UniqueIdentifier>{4e02019e-9dc2-41fa-b983-47ca0a3a66c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Menu">
+      <UniqueIdentifier>{cee3f5aa-50d4-44cb-a702-e25bdf43e69f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\MainMenu">
+      <UniqueIdentifier>{08f14030-e049-4c85-8b41-305f2acffb86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{4d9edaa0-3df0-42f3-8df9-280f1ae7af4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\SkillMenu">
+      <UniqueIdentifier>{e7e96809-edbd-49f8-a8bd-27aedf95fa15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\SkillMenu\SkillMenuIcon">
+      <UniqueIdentifier>{90f4f02d-564e-4db9-ae94-bb5572b081dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\SkillMenu\SkillMenuPanel">
+      <UniqueIdentifier>{268ca5a8-4746-4087-af4c-12abf063dfdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\SkillMenu\SkillMenuDeco">
+      <UniqueIdentifier>{ac1e301d-ccb9-470f-96bc-2eb0796cadfe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Levels\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01.Levels\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Levels\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01.Levels\Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BackGround.h">
+      <Filter>02.GameObjects\UI\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02.GameObjects\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FreeCamera.h">
+      <Filter>02.GameObjects\99.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h">
+      <Filter>02.GameObjects\02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player.h">
+      <Filter>02.GameObjects\03.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Body_Player.h">
+      <Filter>02.GameObjects\03.Player\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon.h">
+      <Filter>02.GameObjects\03.Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sky.h">
+      <Filter>02.GameObjects\04.Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_Snow.h">
+      <Filter>02.GameObjects\05.Particle\Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_Explosion.h">
+      <Filter>02.GameObjects\03.Player\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Explosion.h">
+      <Filter>02.GameObjects\06.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ForkLift.h">
+      <Filter>02.GameObjects\07.ForkLift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_MapTool.h">
+      <Filter>01.Levels\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_KeyPad.h">
+      <Filter>02.GameObjects\UI\KeyPad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Icon.h">
+      <Filter>02.GameObjects\UI\Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Menu.h">
+      <Filter>02.GameObjects\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PlayerHp.h">
+      <Filter>02.GameObjects\UI\PlayerUI\PlayerHp\Hp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PlayerMp.h">
+      <Filter>02.GameObjects\UI\PlayerUI\PlayerHp\Mp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PlayerPanelHpMp.h">
+      <Filter>02.GameObjects\UI\PlayerUI\PlayerHp\PanelHpMp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_InventoryPanel.h">
+      <Filter>02.GameObjects\UI\PlayerUI\Inventory\PanelInventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_InventoryStaticIcon.h">
+      <Filter>02.GameObjects\UI\PlayerUI\Inventory\IconInventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MainMenuPanel.h">
+      <Filter>02.GameObjects\UI\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MainMenuIcon.h">
+      <Filter>02.GameObjects\UI\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_SkillMenuDeco.h">
+      <Filter>02.GameObjects\UI\SkillMenu\SkillMenuDeco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_SkillMenuIcon.h">
+      <Filter>02.GameObjects\UI\SkillMenu\SkillMenuIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_SkillMenuPanel.h">
+      <Filter>02.GameObjects\UI\SkillMenu\SkillMenuPanel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Levels\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01.Levels\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Levels\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01.Levels\Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BackGround.cpp">
+      <Filter>02.GameObjects\UI\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02.GameObjects\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FreeCamera.cpp">
+      <Filter>02.GameObjects\99.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp">
+      <Filter>02.GameObjects\02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player.cpp">
+      <Filter>02.GameObjects\03.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Body_Player.cpp">
+      <Filter>02.GameObjects\03.Player\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon.cpp">
+      <Filter>02.GameObjects\03.Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sky.cpp">
+      <Filter>02.GameObjects\04.Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_Snow.cpp">
+      <Filter>02.GameObjects\05.Particle\Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_Explosion.cpp">
+      <Filter>02.GameObjects\03.Player\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Explosion.cpp">
+      <Filter>02.GameObjects\06.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ForkLift.cpp">
+      <Filter>02.GameObjects\07.ForkLift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_MapTool.cpp">
+      <Filter>01.Levels\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Imgui\imgui.cpp" />
+    <ClCompile Include="..\..\Imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\..\Imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\..\Imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\..\Imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\..\Imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\..\Imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\..\Imgui\ImGuizmo.cpp" />
+    <ClCompile Include="..\..\Imgui\ImGuiFileDialog.cpp" />
+    <ClCompile Include="..\Private\UI_KeyPad.cpp">
+      <Filter>02.GameObjects\UI\KeyPad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Icon.cpp">
+      <Filter>02.GameObjects\UI\Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Menu.cpp">
+      <Filter>02.GameObjects\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PlayerHp.cpp">
+      <Filter>02.GameObjects\UI\PlayerUI\PlayerHp\Hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PlayerMp.cpp">
+      <Filter>02.GameObjects\UI\PlayerUI\PlayerHp\Mp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PlayerPanelHpMp.cpp">
+      <Filter>02.GameObjects\UI\PlayerUI\PlayerHp\PanelHpMp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_InventoryPanel.cpp">
+      <Filter>02.GameObjects\UI\PlayerUI\Inventory\PanelInventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_InventoryStaticIcon.cpp">
+      <Filter>02.GameObjects\UI\PlayerUI\Inventory\IconInventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MainMenuPanel.cpp">
+      <Filter>02.GameObjects\UI\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MainMenuIcon.cpp">
+      <Filter>02.GameObjects\UI\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_SkillMenuDeco.cpp">
+      <Filter>02.GameObjects\UI\SkillMenu\SkillMenuDeco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_SkillMenuIcon.cpp">
+      <Filter>02.GameObjects\UI\SkillMenu\SkillMenuIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_SkillMenuPanel.cpp">
+      <Filter>02.GameObjects\UI\SkillMenu\SkillMenuPanel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxModel.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimModel.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCubeTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxRectInstance.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPointInstance.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTexBatch.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
