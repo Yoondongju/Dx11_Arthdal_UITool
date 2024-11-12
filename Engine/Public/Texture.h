@@ -18,6 +18,8 @@ public:
 	ID3D11ShaderResourceView*			GetTexture() { return m_SRVs.back(); }
 	vector<ID3D11ShaderResourceView*>&  GetTextures() { return m_SRVs; }
 
+
+	void								Set_MyPath(_wstring strPath) { m_LStrMyPath = strPath; }
 	const _wstring&						Get_MyPath() { return m_LStrMyPath; }
 
 public:

@@ -103,6 +103,7 @@ HRESULT CUIBatch::Render()
 	if (FAILED(m_pAtlasTextureCom->Bind_ShadeResource(m_pShaderCom, "g_Texture", 0)))
 		return E_FAIL;
 
+	
 	if (FAILED(m_pShaderCom->Begin(1)))
 		return E_FAIL;
 	if (FAILED(m_pVIBufferRectBatch->Bind_Buffers()))
@@ -218,6 +219,8 @@ HRESULT CUIBatch::Ready_Components()
 	m_pGameInstance->RemoveAllObjectToLayer(3, L"Layer_UI_ForBatch");
 	m_pVIBufferRectBatch->Initialize_Batch(nullptr);
 
+
+	
 
 	if (FAILED(__super::Add_Component(3, m_LstrMyReferenceTexture,
 		L"Com_Texture", reinterpret_cast<CComponent**>(&m_pAtlasTextureCom))))

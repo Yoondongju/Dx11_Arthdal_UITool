@@ -52,7 +52,32 @@ HRESULT CUI_SkillMenuIcon::Initialize(void* pArg)
 
 	m_iInstanceId = m_iNextInstanceId++;		// 나중에 부여된 아이디로 뭘할수잇을지 생각 
 
+	switch (m_iInstanceId)
+	{
+	case 64:
+		m_Font.strFontText = L"액티브";
+		m_Font.vFontColor = _float4(1.f, 1.f, 1.f, 1.f);
+		break;
+	case 65:
+		m_Font.strFontText = L"패시브";
+		m_Font.vFontColor = _float4(1.f, 1.f, 1.f, 1.f);
+		break;
+	case 66:
+		m_Font.strFontText = L"퀵슬롯 설정";
+		m_Font.vFontColor = _float4(1.f, 1.f, 1.f, 1.f);
+		break;
+	case 67:
+		m_Font.strFontText = L"자동 순서";
+		m_Font.vFontColor = _float4(1.f, 1.f, 1.f, 1.f);
+		break;
+	case 68:
+		m_Font.strFontText = L"스킬 강화";
+		m_Font.vFontColor = _float4(1.f, 1.f, 1.f, 1.f);
+		break;
 
+	default:
+		break;
+	}
 
 
 	return S_OK;
@@ -97,30 +122,30 @@ void CUI_SkillMenuIcon::Update(_float fTimeDelta)
 
 
 
-	if (nullptr != m_pParentUI)			// 부모가 존재할때 항상 부모의 위치,스케일 따라가다가 특정 트리거때 이 조건을 푼다라는 생각하기 
-	{
-		if (false == isExcutingEvent)		// 이벤트 처리중이 아닐떼ㅐ만
-		{
-			_float fParentSizeX = m_pParentUI->Get_fSizeX();
-			_float fParentSizeY = m_pParentUI->Get_fSizeY();
-	
-			m_fX = (m_fOffsetRatioX * fParentSizeX) + m_pParentUI->Get_fX();
-			m_fY = (m_fOffsetRatioY * fParentSizeY) + m_pParentUI->Get_fY();
-			m_fSizeX = m_fOffsetSizeRatioX * fParentSizeX;
-			m_fSizeY = m_fOffsetSizeRatioY * fParentSizeY;
-	
-			m_fOriginSizeX = m_fSizeX;
-			m_fOriginSizeY = m_fSizeY;
-		}
-	}
-	else
-	{
-		if (false == isExcutingEvent)		// 이벤트 처리중이 아닐떼ㅐ만
-		{
-			m_fOriginSizeX = m_fSizeX;
-			m_fOriginSizeY = m_fSizeY;
-		}
-	}
+	//if (nullptr != m_pParentUI)			// 부모가 존재할때 항상 부모의 위치,스케일 따라가다가 특정 트리거때 이 조건을 푼다라는 생각하기 
+	//{
+	//	if (false == isExcutingEvent)		// 이벤트 처리중이 아닐떼ㅐ만
+	//	{
+	//		_float fParentSizeX = m_pParentUI->Get_fSizeX();
+	//		_float fParentSizeY = m_pParentUI->Get_fSizeY();
+	//
+	//		m_fX = (m_fOffsetRatioX * fParentSizeX) + m_pParentUI->Get_fX();
+	//		m_fY = (m_fOffsetRatioY * fParentSizeY) + m_pParentUI->Get_fY();
+	//		m_fSizeX = m_fOffsetSizeRatioX * fParentSizeX;
+	//		m_fSizeY = m_fOffsetSizeRatioY * fParentSizeY;
+	//
+	//		m_fOriginSizeX = m_fSizeX;
+	//		m_fOriginSizeY = m_fSizeY;
+	//	}
+	//}
+	//else
+	//{
+	//	if (false == isExcutingEvent)		// 이벤트 처리중이 아닐떼ㅐ만
+	//	{
+	//		m_fOriginSizeX = m_fSizeX;
+	//		m_fOriginSizeY = m_fSizeY;
+	//	}
+	//}
 
 
 
@@ -158,7 +183,7 @@ HRESULT CUI_SkillMenuIcon::Render()
 
 
 
-
+	
 	if (false == m_isActiveTrigerUV)
 	{
 		if (FAILED(m_pShaderCom->Bind_RawValue("g_StartUV", &m_vCurStartUV, sizeof(_float2))))
@@ -204,10 +229,23 @@ void CUI_SkillMenuIcon::Render_Text()
 	//	return;
 
 	_int iTextLength = m_Font.strFontText.length();
-	_float fTextWidth = 8 * iTextLength;
+	_float fTextWidth = 5 * iTextLength;
 
-	_float fFontPosX = m_fX - (m_fSizeX * 0.5f) + 15.f - (fTextWidth * 0.5f);
-	_float fFontPosY = m_fY + 3.f + (m_fSizeY * 0.5f);
+	_float fFontPosX = m_fX - (m_fSizeX * 0.5f) + 30.f - (fTextWidth * 0.5f);
+	_float fFontPosY = m_fY - 10.f;
+
+
+	switch (m_iInstanceId)
+	{
+	case 64:
+		fFontPosX += 15.f;
+		break;
+	case 68:
+		fFontPosX += 55.f;
+		break;
+	default:
+		break;
+	}
 
 	m_pGameInstance->Render_Text(TEXT("Font_145"),
 		to_wstring(m_iInstanceId).c_str(), //m_Font.strFontText.c_str(),//
@@ -215,7 +253,7 @@ void CUI_SkillMenuIcon::Render_Text()
 		XMVectorSet(1.f, 1.f, 0.f, 1.f),//XMLoadFloat4(&m_Font.vFontColor), //XMVectorSet(1.f, 1.f, 0.f, 1.f),//XMLoadFloat4(&m_Font.vFontColor),// // 
 		0.f,
 		XMVectorSet(0.f, 0.f, 0.f, 1.f),
-		0.3f);
+		0.5f);
 
 
 	//if (CLevel_MapTool::Get_PickedUI() == this)
@@ -329,6 +367,7 @@ HRESULT CUI_SkillMenuIcon::Ready_Components(void* pArg)
 		UI_DESC* pDesc = static_cast<UI_DESC*>(pArg);
 		m_LstrMyReferenceTexture = pDesc->LstrTexturePrototype;
 	}
+
 
 	if (FAILED(__super::Add_Component(LEVEL_MAPTOOL, m_LstrMyReferenceTexture,
 		TEXT("Com_Texture"), reinterpret_cast<CComponent**>(&m_pTextureCom))))

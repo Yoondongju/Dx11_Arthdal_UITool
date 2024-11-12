@@ -112,16 +112,16 @@
     <Filter Include="98.Default">
       <UniqueIdentifier>{4d9edaa0-3df0-42f3-8df9-280f1ae7af4a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="02.GameObjects\UI\SkillMenu">
+    <Filter Include="02.GameObjects\UI\PlayerUI\SkillMenu">
       <UniqueIdentifier>{e7e96809-edbd-49f8-a8bd-27aedf95fa15}</UniqueIdentifier>
     </Filter>
-    <Filter Include="02.GameObjects\UI\SkillMenu\SkillMenuIcon">
+    <Filter Include="02.GameObjects\UI\PlayerUI\SkillMenu\SkillMenuIcon">
       <UniqueIdentifier>{90f4f02d-564e-4db9-ae94-bb5572b081dc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="02.GameObjects\UI\SkillMenu\SkillMenuPanel">
+    <Filter Include="02.GameObjects\UI\PlayerUI\SkillMenu\SkillMenuPanel">
       <UniqueIdentifier>{268ca5a8-4746-4087-af4c-12abf063dfdb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="02.GameObjects\UI\SkillMenu\SkillMenuDeco">
+    <Filter Include="02.GameObjects\UI\PlayerUI\SkillMenu\SkillMenuDeco">
       <UniqueIdentifier>{ac1e301d-ccb9-470f-96bc-2eb0796cadfe}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -226,13 +226,13 @@
       <Filter>02.GameObjects\UI\MainMenu</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\UI_SkillMenuDeco.h">
-      <Filter>02.GameObjects\UI\SkillMenu\SkillMenuDeco</Filter>
+      <Filter>02.GameObjects\UI\PlayerUI\SkillMenu\SkillMenuDeco</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\UI_SkillMenuIcon.h">
-      <Filter>02.GameObjects\UI\SkillMenu\SkillMenuIcon</Filter>
+      <Filter>02.GameObjects\UI\PlayerUI\SkillMenu\SkillMenuIcon</Filter>
     </ClInclude>
     <ClInclude Include="..\Public\UI_SkillMenuPanel.h">
-      <Filter>02.GameObjects\UI\SkillMenu\SkillMenuPanel</Filter>
+      <Filter>02.GameObjects\UI\PlayerUI\SkillMenu\SkillMenuPanel</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -336,13 +336,13 @@
       <Filter>02.GameObjects\UI\MainMenu</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\UI_SkillMenuDeco.cpp">
-      <Filter>02.GameObjects\UI\SkillMenu\SkillMenuDeco</Filter>
+      <Filter>02.GameObjects\UI\PlayerUI\SkillMenu\SkillMenuDeco</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\UI_SkillMenuIcon.cpp">
-      <Filter>02.GameObjects\UI\SkillMenu\SkillMenuIcon</Filter>
+      <Filter>02.GameObjects\UI\PlayerUI\SkillMenu\SkillMenuIcon</Filter>
     </ClCompile>
     <ClCompile Include="..\Private\UI_SkillMenuPanel.cpp">
-      <Filter>02.GameObjects\UI\SkillMenu\SkillMenuPanel</Filter>
+      <Filter>02.GameObjects\UI\PlayerUI\SkillMenu\SkillMenuPanel</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

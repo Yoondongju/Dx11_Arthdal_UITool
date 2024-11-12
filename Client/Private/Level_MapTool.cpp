@@ -389,15 +389,15 @@ void CLevel_MapTool::ImGui_Render()
 
 
 
-    //if (ImGui::Button(u8"Defalut UI저장"))
-    //    Save_DefalutUI();
-    //if (ImGui::Button(u8"Batch UI저장"))
-    //    Save_BatchUI();
-    //
-    //if (ImGui::Button(u8"Defalut UI로드"))
-    //    Load_DefalutUI();
-    //if (ImGui::Button(u8"Batch UI로드"))
-    //    Load_BatchUI();
+    if (ImGui::Button(u8"Defalut UI저장"))
+        Save_DefalutUI();
+    if (ImGui::Button(u8"Batch UI저장"))
+        Save_BatchUI();
+    
+    if (ImGui::Button(u8"Defalut UI로드"))
+        Load_DefalutUI();
+    if (ImGui::Button(u8"Batch UI로드"))
+        Load_BatchUI();
 
 
     if (ImGui::Button(u8"SkillMenu UI저장"))
@@ -1682,7 +1682,7 @@ void CLevel_MapTool::Save_DefalutUIWithChild(CUI* pUI, FILE* fout)
 
         _float4x4   WorldMatrix = *pUI->Get_Transform()->Get_WorldMatrix_Ptr();
 
-        _wstring LstrMyTexturePath = static_cast<CTexture*>(pUI->Find_Component(L"Com_Texture"))->Get_MyPath();    // 이 객체가 참조하는 텍스쳐의 경로
+        _wstring LstrMyTexturePath = static_cast<CTexture*>(pUI->Find_Component(L"Com_Texture"))->Get_MyPath();    // 이 객체가 참조하는 텍스쳐의 경로       
         _uint TexturePathLength = LstrMyTexturePath.size();
 
         _wstring LstrMyTexturePrototypeName = pUI->Get_MyTexturePrototypeName();    // 이 객체가 참조하는 텍스쳐의 플토타입
@@ -1744,10 +1744,12 @@ void CLevel_MapTool::Save_DefalutUIWithChild(CUI* pUI, FILE* fout)
 
                 _float4x4   WorldMatrix = *pUI->Get_Transform()->Get_WorldMatrix_Ptr();
 
-                _wstring LstrMyTexturePath = static_cast<CTexture*>(pUI->Find_Component(L"Com_Texture"))->Get_MyPath();    // 이 객체가 참조하는 텍스쳐의 경로
+                _wstring LstrMyTexturePath = static_cast<CTexture*>(pUI->Find_Component(L"Com_Texture"))->Get_MyPath();  // 이 객체가 참조하는 텍스쳐의 경로
+               
                 _uint TexturePathLength = LstrMyTexturePath.size();
 
                 _wstring LstrMyTexturePrototypeName = pUI->Get_MyTexturePrototypeName();    // 이 객체가 참조하는 텍스쳐의 플토타입
+               
                 _uint TexturePrototypeLength = LstrMyTexturePrototypeName.size();           // 이 객체가 참조하는 텍스쳐의 플토타입
 
                 _float2 vStartUV = pUI->Get_StartUV();
