@@ -138,7 +138,7 @@ public:
 
 
 #pragma region UIMANAGER
-	
+	void		SetFocusUI(CUI* _pUI);
 #pragma endregion
 
 

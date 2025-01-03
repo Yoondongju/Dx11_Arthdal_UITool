@@ -167,10 +167,16 @@ void CUI_SkillMenuIcon::Late_Update(_float fTimeDelta)
 
 	for (auto pChildUI : m_childUI_List)
 		pChildUI->Late_Update(fTimeDelta);
+
+
+
+
 }
 
 HRESULT CUI_SkillMenuIcon::Render()
 {
+
+
 
 	if (FAILED(m_pTransformCom->Bind_ShaderResource(m_pShaderCom, "g_WorldMatrix")))
 		return E_FAIL;
@@ -231,7 +237,7 @@ void CUI_SkillMenuIcon::Render_Text()
 	_int iTextLength = m_Font.strFontText.length();
 	_float fTextWidth = 5 * iTextLength;
 
-	_float fFontPosX = m_fX - (m_fSizeX * 0.5f) + 30.f - (fTextWidth * 0.5f);
+	_float fFontPosX = m_fX - (m_fSizeX * 0.5f) + 45.f - (fTextWidth * 0.5f);
 	_float fFontPosY = m_fY - 10.f;
 
 

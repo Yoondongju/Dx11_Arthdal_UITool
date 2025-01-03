@@ -49,6 +49,8 @@ HRESULT CUI_MainMenuPanel::Initialize(void* pArg)
 			return E_FAIL;
 	}
 
+	//m_fSizeX = 1000.f;
+	//m_fSizeY = 900.f;
 
 
 	return S_OK;
@@ -56,6 +58,13 @@ HRESULT CUI_MainMenuPanel::Initialize(void* pArg)
 
 void CUI_MainMenuPanel::Priority_Update(_float fTimeDelta)
 {
+	//m_bActivate = true;
+
+	//m_fSizeX = 500.f;
+	//m_fSizeY = 500.f;
+	//m_fX = 800.f;
+	//m_fY = 450.f;
+
 	if (false == m_bActivate)
 		return;
 
@@ -65,12 +74,12 @@ void CUI_MainMenuPanel::Priority_Update(_float fTimeDelta)
 
 void CUI_MainMenuPanel::Update(_float fTimeDelta)
 {
-	m_bActivate = true;
-
 	if (false == m_bActivate)
 		return;
 
 	m_fAccTime += fTimeDelta;
+
+	
 
 	_bool isExcutingEvent = false;
 	for (_uint i = 0; i < UI_EVENT_TYPE::MOUSE_END; i++)
@@ -191,6 +200,9 @@ HRESULT CUI_MainMenuPanel::Render()
 
 	for (auto pChildUI : m_childUI_List)
 		pChildUI->Render();
+
+
+	m_bActivate = false;			// 한번 m_fX 랑 m_fY가 세팅된후에 꺼주자 자꾸 클라파싱하면 없어진다.
 
 	return S_OK;
 }

@@ -61,6 +61,12 @@ HRESULT CUI_SkillMenuPanel::Initialize(void* pArg)
 
 void CUI_SkillMenuPanel::Priority_Update(_float fTimeDelta)
 {
+	
+	//m_fSizeX = 500.f;
+	//m_fSizeY = 500.f;
+	//m_fX = 800.f;
+	//m_fY = 450.f;
+
 	for (auto pChildUI : m_childUI_List)
 		pChildUI->Priority_Update(fTimeDelta);
 }
@@ -123,6 +129,38 @@ void CUI_SkillMenuPanel::Update(_float fTimeDelta)
 		}
 	}
 
+	// 0번이 바깥 스킬패널 1번이 진짜 스킬아이콘들  3,4번이 퀵슬롯이니까 1번 자식이 맨 뒤로가야해
+	//static _bool test = false;
+	//
+	//_uint i = 0;
+	//if (false == test)
+	//{	
+	//	for (auto iter = m_childUI_List.begin(); iter != m_childUI_List.end();)
+	//	{
+	//		if (i == 1) // 1번째 자식을 처리
+	//		{
+	//			// 첫 번째 자식(1번째)을 리스트에서 추출하고 맨 뒤에 추가
+	//			auto child = *iter; // 현재 자식 저장
+	//			iter = m_childUI_List.erase(iter); // 현재 자식을 리스트에서 삭제
+	//			m_childUI_List.emplace_back(child); // 리스트 뒤에 추가
+	//			break; // 1번째 자식만 처리하면 반복 종료
+	//		}
+	//		else
+	//		{
+	//			++iter; // 다음 자식으로 이동
+	//			++i;    // i 증가
+	//		}	
+	//	}
+	//	test = true;
+	//}
+
+	if (m_pGameInstance->Get_KeyState(KEY::G) == KEY_STATE::TAP)
+	{
+		CUI* pUI = m_childUI_List.back();
+
+		m_pGameInstance->Delete(LEVEL_MAPTOOL , CRenderer::RENDERGROUP::RG_UI, pUI);
+	}
+
 
 
 	for (auto pChildUI : m_childUI_List)
@@ -131,6 +169,9 @@ void CUI_SkillMenuPanel::Update(_float fTimeDelta)
 
 void CUI_SkillMenuPanel::Late_Update(_float fTimeDelta)
 {
+	if (false == m_bActivate)
+		return;
+
 	/* 직교투영을 위한 월드행렬까지 셋팅하게 된다. */
 	__super::Late_Update(fTimeDelta);
 
@@ -143,11 +184,12 @@ void CUI_SkillMenuPanel::Late_Update(_float fTimeDelta)
 
 	for (auto pChildUI : m_childUI_List)
 		pChildUI->Late_Update(fTimeDelta);
+
+	m_bActivate = false;
 }
 
 HRESULT CUI_SkillMenuPanel::Render()
 {
-
 	if (FAILED(m_pTransformCom->Bind_ShaderResource(m_pShaderCom, "g_WorldMatrix")))
 		return E_FAIL;
 	if (FAILED(m_pShaderCom->Bind_Matrix("g_ViewMatrix", &m_ViewMatrix)))
@@ -185,6 +227,11 @@ HRESULT CUI_SkillMenuPanel::Render()
 	for (auto pChildUI : m_childUI_List)
 		pChildUI->Render();
 
+	
+
+	//m_bActivate = false;			// 한번 m_fX 랑 m_fY가 세팅된후에 꺼주자 자꾸 
+
+
 	return S_OK;
 }
 
@@ -201,7 +248,7 @@ void CUI_SkillMenuPanel::Render_Text()
 	_float fFontPosY = m_fY + 3.f + (m_fSizeY * 0.5f);
 
 	m_pGameInstance->Render_Text(TEXT("Font_145"),
-		m_Font.strFontText.c_str(),//to_wstring(m_iInstanceId).c_str(), //m_Font.strFontText.c_str(),//
+		to_wstring(m_iInstanceId).c_str(), //m_Font.strFontText.c_str(),//
 		XMVectorSet(fFontPosX, fFontPosY, 0.f, 1.f),
 		XMLoadFloat4(&m_Font.vFontColor), //XMVectorSet(1.f, 1.f, 0.f, 1.f),//XMLoadFloat4(&m_Font.vFontColor),// // 
 		0.f,

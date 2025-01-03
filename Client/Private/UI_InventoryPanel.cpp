@@ -57,7 +57,7 @@ HRESULT CUI_InventoryPanel::Initialize(void* pArg)
 
 void CUI_InventoryPanel::Priority_Update(_float fTimeDelta)
 {
-	m_bActivate = true;
+	
 
 	if (false == m_bActivate)
 		return;
@@ -150,6 +150,9 @@ void CUI_InventoryPanel::Late_Update(_float fTimeDelta)
 
 	for (auto pChildUI : m_childUI_List)
 		pChildUI->Late_Update(fTimeDelta);
+
+
+	m_bActivate = false;
 }
 
 HRESULT CUI_InventoryPanel::Render()

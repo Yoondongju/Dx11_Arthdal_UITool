@@ -441,6 +441,11 @@ HRESULT CGameInstance::Render_MRT_Debug(const _wstring & strMRTTag, CShader * pS
 
 #pragma region PICKING
 
+void CGameInstance::SetFocusUI(CUI* _pUI)
+{
+	m_pUI_Manager->SetFocusUI(_pUI);
+}
+
 _bool CGameInstance::Picking(_float3 * pPickPos)
 {
 	return m_pPicking->Picking(pPickPos);

@@ -5155,3 +5155,5 @@ IGFD_C_API void ManageGPUThumbnails(ImGuiFileDialog* vContextPtr) {
 #endif  // USE_THUMBNAILS
 
 #pragma endregion
+
+

@@ -186,42 +186,7 @@ HRESULT CUI_KeyPad::Render()
 
 void CUI_KeyPad::Render_Text()
 {
-	if (CLevel_MapTool::Get_PickedUI() == this)
-	{
-		_wstring LMyReferenceTexture =
-			L"My Prototype:  " + m_LstrPrototypeName + L"\n"
-			+ L"My Layer:  " + m_LstrLayerName;
 
-
-		_wstring LMyReferenceTexture2 =
-			L"MyTexture:  " + m_LstrMyReferenceTexture + L"\n"
-			+ L"StartUV.x:  " + to_wstring(m_vCurStartUV.x) + L"\n"
-			+ L"StartUV.y:  " + to_wstring(m_vCurStartUV.y) + L"\n"
-			+ L"EndUV.x:  " + to_wstring(m_vCurEndUV.x) + L"\n"
-			+ L"EndUV.y:  " + to_wstring(m_vCurEndUV.y);
-
-		_float fTextPosX = m_fX + m_fSizeX * 0.5f;
-		_float fTextPosY = m_fY - m_fSizeY * 0.5f;
-
-		m_pGameInstance->Render_Text(TEXT("Font_145"),
-			LMyReferenceTexture.c_str(),
-			XMVectorSet(fTextPosX, fTextPosY, 0.f, 1.f),
-			XMVectorSet(1.f, 1.f, 0.f, 1.f),
-			0.f,
-			XMVectorSet(0.f, 0.f, 0.f, 1.f),
-			0.35f);
-
-		fTextPosX = m_fX + m_fSizeX * 0.5f;
-		fTextPosY = m_fY + m_fSizeY * 0.2f;
-
-		m_pGameInstance->Render_Text(TEXT("Font_145"),
-			LMyReferenceTexture2.c_str(),
-			XMVectorSet(fTextPosX, fTextPosY, 0.f, 1.f),
-			XMVectorSet(1.f, 1.f, 0.f, 1.f),
-			0.f,
-			XMVectorSet(0.f, 0.f, 0.f, 1.f),
-			0.35f);
-	}
 }
 
 

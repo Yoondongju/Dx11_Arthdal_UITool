@@ -93,6 +93,7 @@ HRESULT CLevel_MapTool::Initialize()
     Prototypeitems.emplace_back(L"Prototype_GameObject_UI_Icon");
     Prototypeitems.emplace_back(L"Prototype_GameObject_UI_PlayerHp");
     Prototypeitems.emplace_back(L"Prototype_GameObject_UI_PlayerMp");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_PlayerExp");
     Prototypeitems.emplace_back(L"Prototype_GameObject_UI_PlayerPanelHpMp");
     Prototypeitems.emplace_back(L"Prototype_GameObject_UI_InventoryPanel");
     Prototypeitems.emplace_back(L"Prototype_GameObject_UI_InventoryStaticIcon");
@@ -104,7 +105,87 @@ HRESULT CLevel_MapTool::Initialize()
     Prototypeitems.emplace_back(L"Prototype_GameObject_UI_SkillMenuIcon");
     Prototypeitems.emplace_back(L"Prototype_GameObject_UI_SkillMenuPanel");
     
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_ItemPickUp");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_ItemPickUpIcon");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_TalkInteract");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_TalkInteractPanel");
+    
 
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_PotionMenuPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_PotionMenuDeco");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_PotionMenuIcon");
+
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_TradeNotifiPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_TradeNotifiIcon");
+
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_TalkDecoPanel");   
+       
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_KeyPadSkillIcon");
+
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_SmallMiniMapPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_SmallMiniMapIcon");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_QuestIcon");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_QuestPanel");
+
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_QuestSuccessPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_QuestSuccessIcon");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_QuestSuccessDeco");
+
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_EquipPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_EquipIcon");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_ItemInfoPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_ItemInfoIcon");
+
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_QuickSlotHelperFirst");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_QuickSlotHelperSecond");
+
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_DuacaHpPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_DuacaHpIcon");
+
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_DuacaEatNotifyPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_DuacaEatNotifyIcon");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_SubQuestPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_SubQuestIcon");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_BigMiniMapPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_BigMiniMapIcon");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_RecallIcon");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_RecallPanel");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_RecallInfoPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_RecallInfoIcon");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_QuestMarkerPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_QuestMarkerDeco");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_SubQuestListViewPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_SubQuestListViewIcon");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_SkillCoolNotifyPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_SkillCoolNotifyIcon");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_PlayerDiePanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_PlayerDieIcon");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_FishingPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_FishingIcon");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_DuacaEscapeKey");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_RegionEntryPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_RegionEntryDeco");
+
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_FishingFailPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_FishingFailIcon");
+    
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_EquipEnhancerPanel");
+    Prototypeitems.emplace_back(L"Prototype_GameObject_UI_EquipEnhancerIcon");
+    
 
     for (const auto& item : Prototypeitems)
     {
@@ -112,6 +193,9 @@ HRESULT CLevel_MapTool::Initialize()
         cstrItems.push_back(items.back().c_str());
     }
    
+
+
+
 
     return S_OK;
 }
@@ -139,6 +223,7 @@ HRESULT CLevel_MapTool::Ready_ImGui()
 
     if (!ImGui_ImplWin32_Init(g_hWnd))  // win32 관련된 초기화
     {
+        MSG_BOX(L"IMGUI WIN32 초기화 실패");
         MSG_BOX(L"IMGUI WIN32 초기화 실패");
         return E_FAIL;
     }
@@ -230,7 +315,6 @@ void CLevel_MapTool::Update(_float fTimeDelta)
             _wstring LstrPrototypeName = m_pPickedUI->Get_PrototypeName();
 
             CUI* pOriginUI = static_cast<CUI*>(m_pPickedUI);
-
             CUI::UI_DESC		Desc{};
             Desc.fX = pOriginUI->Get_fX();
             Desc.fY = pOriginUI->Get_fY();
@@ -245,14 +329,44 @@ void CLevel_MapTool::Update(_float fTimeDelta)
             Desc.fSpeedPerSec = 10.f;
             Desc.fRotationPerSec = XMConvertToRadians(90.0f);
 
-            if (FAILED(m_pGameInstance->Add_CloneObject_ToLayer(LEVEL_MAPTOOL, LstrLayerName,       // 임시
-                LstrPrototypeName , &Desc)))
+
+            CUI* pCopyParentUI = static_cast<CUI*>(m_pGameInstance->Clone_GameObject(LstrPrototypeName, &Desc));
+            if (FAILED(m_pGameInstance->Add_CloneObject_ToLayer(LEVEL_MAPTOOL, LstrLayerName, pCopyParentUI)))
                 MSG_BOX(L"테스트유아이 안나와");
+
+
+            list<CUI*>& ChildList = pOriginUI->GetChildUI();       
+            for (auto& pUI : ChildList)
+            {
+                CUI::UI_DESC		Desc{};
+                Desc.fX = pUI->Get_fX();
+                Desc.fY = pUI->Get_fY();
+                Desc.fSizeX = pUI->Get_fSizeX();
+                Desc.fSizeY = pUI->Get_fSizeY();
+                Desc.LstrTexturePrototype = pUI->Get_MyTexturePrototypeName();
+                Desc.vStartUV = pUI->Get_StartUV();
+                Desc.vEndUV = pUI->Get_EndUV();
+                Desc.vTrigerTargetStartUV = pUI->Get_TrigerTargetStartUV();
+                Desc.vTrigerTargetEndUV = pUI->Get_TrigerTargetEndUV();
+
+                Desc.fSpeedPerSec = 10.f;
+                Desc.fRotationPerSec = XMConvertToRadians(90.0f);
+
+                _wstring LstrPrototypeName = pUI->Get_PrototypeName();
+
+
+                CUI* pCopyChildUI = static_cast<CUI*>(m_pGameInstance->Clone_GameObject(LstrPrototypeName, &Desc));
+                pCopyParentUI->GetChildUI().emplace_back(pCopyChildUI);
+                pCopyChildUI->SetParent(pCopyParentUI);
+
+                // 배치는 안댐
+            }                   
         }
 
         if (m_pGameInstance->Get_KeyState(KEY::X) == KEY_STATE::TAP)
         {
             m_pGameInstance->Delete(LEVEL_MAPTOOL, CRenderer::RENDERGROUP::RG_END, m_pPickedUI);
+            m_pGameInstance->SetFocusUI(nullptr);
 
             if (m_pPickedUI == m_pParentUI)
                 m_pParentUI = nullptr;
@@ -597,7 +711,20 @@ void CLevel_MapTool::Second_ImGui_Render()
         {
             UI_BatchingGroup = CUIBatch::BATHCING_GROUP::SKILLMENU_ICON;
         }
+        if (ImGui::RadioButton(u8"PortionMENU_DECO 그룹으로 배치", UI_BatchingGroup == CUIBatch::BATHCING_GROUP::PORTIONMENU_DECO))
+        {
+            UI_BatchingGroup = CUIBatch::BATHCING_GROUP::PORTIONMENU_DECO;
+        }
+        if (ImGui::RadioButton(u8"PortionMENU_ICON 그룹으로 배치", UI_BatchingGroup == CUIBatch::BATHCING_GROUP::PORTIONMENU_ICON))
+        {
+            UI_BatchingGroup = CUIBatch::BATHCING_GROUP::PORTIONMENU_ICON;
+        }
+        if (ImGui::RadioButton(u8"PORTIONMENU_DECO_2 그룹으로 배치", UI_BatchingGroup == CUIBatch::BATHCING_GROUP::PORTIONMENU_DECO_2))
+        {
+            UI_BatchingGroup = CUIBatch::BATHCING_GROUP::PORTIONMENU_DECO_2;
+        }
         
+
       
         ImGui::TreePop();
     }
@@ -1162,12 +1289,22 @@ void CLevel_MapTool::ShowTextures()
             {
                 for (_uint i = 0; i < m_TextureUIMaterial.size(); i++)
                 {
-                    ImTextureID textureID = reinterpret_cast<ImTextureID>(m_TextureUIMaterial[i].pTexture->GetTexture());
+                    //ImTextureID textureID = reinterpret_cast<ImTextureID>(m_TextureUIMaterial[i].pTexture->GetTexture());
+                    //ImVec2 pos = ImGui::GetCursorScreenPos();
+                    //ImDrawList* drawList = ImGui::GetWindowDrawList();
+                    //drawList->AddRect(pos, ImVec2(pos.x + m_iTextureSizeX, pos.y + m_iTextureSizeY), ImGui::GetColorU32(ImVec4(0.0f, 1.0f, 0.0f, 1.0f)));
+                    //ImGui::Image(textureID, ImVec2(m_iTextureSizeX, m_iTextureSizeY));
+
+
+                    ID3D11ShaderResourceView* pSRV = m_TextureUIMaterial[i].pTexture->GetTexture();  // 내가 늘린 텍스쳐
+                    ImTextureID textureID = reinterpret_cast<ImTextureID>(pSRV);            // 내가 늘린 텍스쳐
+
                     ImVec2 pos = ImGui::GetCursorScreenPos();
                     ImDrawList* drawList = ImGui::GetWindowDrawList();
                     drawList->AddRect(pos, ImVec2(pos.x + m_iTextureSizeX, pos.y + m_iTextureSizeY), ImGui::GetColorU32(ImVec4(0.0f, 1.0f, 0.0f, 1.0f)));
                     ImGui::Image(textureID, ImVec2(m_iTextureSizeX, m_iTextureSizeY));
 
+                    // 이미지 위에서만 드래그 감지
                     if (ImGui::IsItemHovered())
                     {
                         if (true == m_isActiveChangeTexture)
@@ -1179,7 +1316,77 @@ void CLevel_MapTool::ShowTextures()
                                 m_LstrChangeTexturePrototypeName = m_TextureUIMaterial[i].LstrPrototypeName;
                             }
                         }
+
+
+
+                        if (true == m_isActiveDrag && ImGui::IsMouseClicked(ImGuiMouseButton_Left)) {
+                            // 드래그 시작 좌표 설정
+                            startDrag = ImGui::GetIO().MousePos;
+
+                            // 드래그한 LT, RB 좌표를 실제 텍스처의 UV 좌표로 변환
+                            ImVec2 itemMin = ImGui::GetItemRectMin(); // 이미지의 시작 위치
+                            startUV.x = (startDrag.x - itemMin.x) / m_iTextureSizeX;
+                            startUV.y = (startDrag.y - itemMin.y) / m_iTextureSizeY;
+
+                            isDragging = true;
+                        }
+                        if (isDragging && ImGui::IsMouseDragging(ImGuiMouseButton_Left)) {
+                            // 드래그 중인 현재 마우스 위치를 드래그 종료 좌표로 업데이트
+                            endDrag = ImGui::GetIO().MousePos;
+
+                            // 드래그한 LT, RB 좌표를 실제 텍스처의 UV 좌표로 변환
+                            ImVec2 itemMin = ImGui::GetItemRectMin(); // 이미지의 시작 위치
+                            endUV.x = (endDrag.x - itemMin.x) / m_iTextureSizeX;
+                            endUV.y = (endDrag.y - itemMin.y) / m_iTextureSizeY;
+
+
+                            // 드래그 중인 영역을 시각적으로 표시
+                            ImDrawList* drawList = ImGui::GetWindowDrawList();
+                            drawList->AddRectFilled(startDrag, endDrag, IM_COL32(255, 0, 0, 50)); // 반투명 빨간색
+                            drawList->AddRect(startDrag, endDrag, IM_COL32(255, 0, 0, 255)); // 빨간색 테두리
+                        }
+                        if (isDragging && ImGui::IsMouseReleased(ImGuiMouseButton_Left))
+                        {
+                            isDragging = false;
+
+                            // 이때 UV를 저장해서 
+                            // 그럼 객체마다 어떤 아틀라스 이미지를 사용하는지 알아야한다. (아틀라스이미지의 프로토타입 이름을 알아야한다.)
+
+                            // 이제 이 아틀라스이미지의 UV를 뽑앗다라면 어떤 객체한테 줘야할까?
+
+                            m_vStartUV.x = startUV.x;
+                            m_vStartUV.y = startUV.y;
+                            m_vEndUV.x = endUV.x;
+                            m_vEndUV.y = endUV.y;
+
+                            ImDrawList* drawList = ImGui::GetWindowDrawList();
+                            drawList->AddRectFilled(startDrag, endDrag, IM_COL32(255, 0, 0, 50)); // 반투명 빨간색
+                            drawList->AddRect(startDrag, endDrag, IM_COL32(0, 255, 0, 255)); // 빨간색 테두리
+                        }
+
+
+                        if (!ImGui::IsMouseDown(ImGuiMouseButton_Left))
+                        {
+                            startDrag = ImVec2(-1.f, -1.f);
+                            endDrag = ImVec2(-1.f, -1.f);
+                            startUV = ImVec2(0.f, 0.f);
+                            endUV = ImVec2(1.f, 1.f);
+                        }
                     }
+
+
+                    //if (ImGui::IsItemHovered())
+                    //{
+                    //    if (true == m_isActiveChangeTexture)
+                    //    {
+                    //        drawList->AddRectFilled(pos, ImVec2(pos.x + m_iTextureSizeX, pos.y + m_iTextureSizeY), IM_COL32(255, 0, 0, 50));
+                    //
+                    //        if (ImGui::IsMouseClicked(ImGuiMouseButton_Left))
+                    //        {
+                    //            m_LstrChangeTexturePrototypeName = m_TextureUIMaterial[i].LstrPrototypeName;
+                    //        }
+                    //    }
+                    //}
 
                 }
                 ImGui::TreePop();
@@ -1412,6 +1619,21 @@ _bool CLevel_MapTool::ContainsExactWord(const wstring& filePath, const wstring& 
 
 void CLevel_MapTool::Save_DefalutUI()
 {
+    _wstring textstr = L"진짜 디폴트UI 저장할거?\n기존에 디폴트UI 로드하고 저장하는거맞지?";
+
+    _int iResult = MessageBox(
+        NULL,
+        textstr.c_str(),
+        TEXT("ㄹㅇ"),                       // 메시지 제목
+        MB_OKCANCEL | MB_ICONQUESTION
+    );
+    if (iResult == IDCANCEL)
+    {
+        MessageBox(NULL, TEXT("나중에 다시 시도하세요"), TEXT("ㅇㅅㅇ"), MB_OK);
+        return;
+    }
+
+
     FILE* fout = fopen("../Bin/DefalutUI.bin", "wb");
     if (!fout)  // 파일을 열지 못했다면
     {
@@ -1991,6 +2213,7 @@ CUI* CLevel_MapTool::Load_DefalutUIWithChild(FILE* fin)
 
     _uint iChildUISize;
     fread(&iChildUISize, sizeof(iChildUISize), 1, fin);
+
     for (_uint i = 0; i < iChildUISize; i++)
     {
         CUI*            pChildUI = Load_DefalutUIWithChild(fin);

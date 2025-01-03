@@ -124,6 +124,96 @@
     <Filter Include="02.GameObjects\UI\PlayerUI\SkillMenu\SkillMenuDeco">
       <UniqueIdentifier>{ac1e301d-ccb9-470f-96bc-2eb0796cadfe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="02.GameObjects\UI\PlayerUI\PlayeExp">
+      <UniqueIdentifier>{5ef67f0b-6727-4c2d-9775-3d1662fdbd85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\ItemPickUp">
+      <UniqueIdentifier>{5815f349-4afa-4dd6-ad2c-b88283d7ba5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\TalkUI">
+      <UniqueIdentifier>{27afc36a-20cb-43e5-a2e7-140560a438ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Shop">
+      <UniqueIdentifier>{4767894f-3e1c-4eb9-9b69-477b468f513b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Shop\PotionMenu">
+      <UniqueIdentifier>{f99e8b96-f137-428a-86ec-dcda120497c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Shop\PotionMenu\Deco">
+      <UniqueIdentifier>{4a1b12d3-91b7-4902-aa6e-bccf890872c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Shop\PotionMenu\Icon">
+      <UniqueIdentifier>{d5af2c8d-1154-42f3-9b88-cdd98de7bc01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Shop\PotionMenu\Panel">
+      <UniqueIdentifier>{df437191-56c5-4643-8d42-c6dfb2c0268e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Shop\PotionMenu\TradeNotifi">
+      <UniqueIdentifier>{38651de1-be97-44ef-8067-0863c3b50d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\MiniMap">
+      <UniqueIdentifier>{24db5eb2-58f5-4002-8631-eb1f1b230c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Quest">
+      <UniqueIdentifier>{56a4a01f-2e6d-435b-a39d-727fae600719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Equip">
+      <UniqueIdentifier>{43eb13fb-3554-486b-8ef3-05f606f89bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\ItemInfo">
+      <UniqueIdentifier>{1231658d-1e83-4c7f-93b7-0ad78afa45d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\QuickSlotHelper">
+      <UniqueIdentifier>{75caf652-7aca-4d33-aecc-8df7d330d0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\BossHp">
+      <UniqueIdentifier>{1a362428-de05-4566-9681-c166615accd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\BossHp\Duaca">
+      <UniqueIdentifier>{0b502365-9ffd-4856-969e-45aa8c3ffa8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\BossNotify">
+      <UniqueIdentifier>{187573a5-d97d-4439-9936-087eddfac0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\BossNotify\Duaca">
+      <UniqueIdentifier>{7e6b9af2-24f2-4a03-8229-54d187180aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\MiniMap\SmallMiniMap">
+      <UniqueIdentifier>{7213e1a0-6c5f-412c-ad93-9408d5a84954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\MiniMap\BigMiniMap">
+      <UniqueIdentifier>{86476429-465d-4ce6-9910-82e835ca1ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\MiniMap\BigMiniMap\RecallIcon">
+      <UniqueIdentifier>{51180564-a3a7-42e6-b7d0-e86d5da4f198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Quest\QuestMarker">
+      <UniqueIdentifier>{9fb35e60-53da-4fcc-8957-47e1ac2ce158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Quest\SubQuestListView">
+      <UniqueIdentifier>{aff700f8-cb5e-477d-bdeb-5e918839501b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\SkillCoolNotify">
+      <UniqueIdentifier>{bbcad2ac-eef9-4ef8-9958-827971c41fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\PlayerDie">
+      <UniqueIdentifier>{c91a366b-df8f-429b-a545-347dc351f6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Fishing">
+      <UniqueIdentifier>{3a9d8e65-3475-4ba7-ab64-1dbb071e8ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\RegionNameNotifier">
+      <UniqueIdentifier>{94b695c4-2cbf-4804-85cb-d95242763d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Fishing\Fail">
+      <UniqueIdentifier>{938e515c-b213-42fc-abcc-9a8f65a74d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Fishing\Base">
+      <UniqueIdentifier>{4dfcad4e-7983-4498-ba51-0c03479f288c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Enhancer">
+      <UniqueIdentifier>{802a01c0-4c8f-4ff0-b32f-f84733d16b62}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Client.h">
@@ -234,6 +324,168 @@
     <ClInclude Include="..\Public\UI_SkillMenuPanel.h">
       <Filter>02.GameObjects\UI\PlayerUI\SkillMenu\SkillMenuPanel</Filter>
     </ClInclude>
+    <ClInclude Include="..\Public\UI_PlayerExp.h">
+      <Filter>02.GameObjects\UI\PlayerUI\PlayeExp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_ItemPickUpPanel.h">
+      <Filter>02.GameObjects\UI\ItemPickUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_ItemPickUpIcon.h">
+      <Filter>02.GameObjects\UI\ItemPickUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_TalkInteract.h">
+      <Filter>02.GameObjects\UI\TalkUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_TalkInteractPanel.h">
+      <Filter>02.GameObjects\UI\TalkUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PotionMenuDeco.h">
+      <Filter>02.GameObjects\UI\Shop\PotionMenu\Deco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PotionMenuIcon.h">
+      <Filter>02.GameObjects\UI\Shop\PotionMenu\Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PotionMenuPanel.h">
+      <Filter>02.GameObjects\UI\Shop\PotionMenu\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_TradeNotifiPanel.h">
+      <Filter>02.GameObjects\UI\Shop\PotionMenu\TradeNotifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_TradeNotifiIcon.h">
+      <Filter>02.GameObjects\UI\Shop\PotionMenu\TradeNotifi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_TalkDecoPanel.h">
+      <Filter>02.GameObjects\UI\TalkUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_KeyPadSkillIcon.h">
+      <Filter>02.GameObjects\UI\KeyPad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuestIcon.h">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuestPanel.h">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuestSuccessPanel.h">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuestSuccessIcon.h">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuestSuccessDeco.h">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_EquipPanel.h">
+      <Filter>02.GameObjects\UI\Equip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_EquipIcon.h">
+      <Filter>02.GameObjects\UI\Equip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_ItemInfoIcon.h">
+      <Filter>02.GameObjects\UI\ItemInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_ItemInfoPanel.h">
+      <Filter>02.GameObjects\UI\ItemInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuickSlotHelperFirst.h">
+      <Filter>02.GameObjects\UI\QuickSlotHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuickSlotHelperSecond.h">
+      <Filter>02.GameObjects\UI\QuickSlotHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_DuacaHpPanel.h">
+      <Filter>02.GameObjects\UI\BossHp\Duaca</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_DuacaHpIcon.h">
+      <Filter>02.GameObjects\UI\BossHp\Duaca</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_DuacaEatNotifyPanel.h">
+      <Filter>02.GameObjects\UI\BossNotify\Duaca</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_DuacaEatNotifyIcon.h">
+      <Filter>02.GameObjects\UI\BossNotify\Duaca</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_SubQuestPanel.h">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_SubQuestIcon.h">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_SmallMiniMapPanel.h">
+      <Filter>02.GameObjects\UI\MiniMap\SmallMiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_SmallMiniMapIcon.h">
+      <Filter>02.GameObjects\UI\MiniMap\SmallMiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_BigMiniMapPanel.h">
+      <Filter>02.GameObjects\UI\MiniMap\BigMiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_BigMiniMapIcon.h">
+      <Filter>02.GameObjects\UI\MiniMap\BigMiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_RecallIcon.h">
+      <Filter>02.GameObjects\UI\MiniMap\BigMiniMap\RecallIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_RecallPanel.h">
+      <Filter>02.GameObjects\UI\MiniMap\BigMiniMap\RecallIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_RecallInfoPanel.h">
+      <Filter>02.GameObjects\UI\MiniMap\BigMiniMap\RecallIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_RecallInfoIcon.h">
+      <Filter>02.GameObjects\UI\MiniMap\BigMiniMap\RecallIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuestMarkerPanel.h">
+      <Filter>02.GameObjects\UI\Quest\QuestMarker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_QuestMarkerDeco.h">
+      <Filter>02.GameObjects\UI\Quest\QuestMarker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_SubQuestListViewPanel.h">
+      <Filter>02.GameObjects\UI\Quest\SubQuestListView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_SubQuestListViewIcon.h">
+      <Filter>02.GameObjects\UI\Quest\SubQuestListView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_SkillCoolNotifyPanel.h">
+      <Filter>02.GameObjects\UI\SkillCoolNotify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_SkillCoolNotifyIcon.h">
+      <Filter>02.GameObjects\UI\SkillCoolNotify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PlayerDiePanel.h">
+      <Filter>02.GameObjects\UI\PlayerDie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PlayerDieIcon.h">
+      <Filter>02.GameObjects\UI\PlayerDie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_DuacaEscapeKey.h">
+      <Filter>02.GameObjects\UI\BossNotify\Duaca</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_RegionEntryPanel.h">
+      <Filter>02.GameObjects\UI\RegionNameNotifier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_RegionEntryDeco.h">
+      <Filter>02.GameObjects\UI\RegionNameNotifier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_FishingPanel.h">
+      <Filter>02.GameObjects\UI\Fishing\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_FishingIcon.h">
+      <Filter>02.GameObjects\UI\Fishing\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_FishingFailPanel.h">
+      <Filter>02.GameObjects\UI\Fishing\Fail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_FishingFailIcon.h">
+      <Filter>02.GameObjects\UI\Fishing\Fail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_EquipEnhancerPanel.h">
+      <Filter>02.GameObjects\UI\Enhancer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_EquipEnhancerIcon.h">
+      <Filter>02.GameObjects\UI\Enhancer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp">
@@ -343,6 +595,168 @@
     </ClCompile>
     <ClCompile Include="..\Private\UI_SkillMenuPanel.cpp">
       <Filter>02.GameObjects\UI\PlayerUI\SkillMenu\SkillMenuPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PlayerExp.cpp">
+      <Filter>02.GameObjects\UI\PlayerUI\PlayeExp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_ItemPickUpPanel.cpp">
+      <Filter>02.GameObjects\UI\ItemPickUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_ItemPickUpIcon.cpp">
+      <Filter>02.GameObjects\UI\ItemPickUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_TalkInteract.cpp">
+      <Filter>02.GameObjects\UI\TalkUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_TalkInteractPanel.cpp">
+      <Filter>02.GameObjects\UI\TalkUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PotionMenuDeco.cpp">
+      <Filter>02.GameObjects\UI\Shop\PotionMenu\Deco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PotionMenuIcon.cpp">
+      <Filter>02.GameObjects\UI\Shop\PotionMenu\Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PotionMenuPanel.cpp">
+      <Filter>02.GameObjects\UI\Shop\PotionMenu\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_TradeNotifiPanel.cpp">
+      <Filter>02.GameObjects\UI\Shop\PotionMenu\TradeNotifi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_TradeNotifiIcon.cpp">
+      <Filter>02.GameObjects\UI\Shop\PotionMenu\TradeNotifi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_TalkDecoPanel.cpp">
+      <Filter>02.GameObjects\UI\TalkUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_KeyPadSkillIcon.cpp">
+      <Filter>02.GameObjects\UI\KeyPad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuestIcon.cpp">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuestPanel.cpp">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuestSuccessIcon.cpp">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuestSuccessPanel.cpp">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuestSuccessDeco.cpp">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_EquipIcon.cpp">
+      <Filter>02.GameObjects\UI\Equip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_EquipPanel.cpp">
+      <Filter>02.GameObjects\UI\Equip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_ItemInfoIcon.cpp">
+      <Filter>02.GameObjects\UI\ItemInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_ItemInfoPanel.cpp">
+      <Filter>02.GameObjects\UI\ItemInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuickSlotHelperFirst.cpp">
+      <Filter>02.GameObjects\UI\QuickSlotHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuickSlotHelperSecond.cpp">
+      <Filter>02.GameObjects\UI\QuickSlotHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_DuacaHpPanel.cpp">
+      <Filter>02.GameObjects\UI\BossHp\Duaca</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_DuacaHpIcon.cpp">
+      <Filter>02.GameObjects\UI\BossHp\Duaca</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_DuacaEatNotifyPanel.cpp">
+      <Filter>02.GameObjects\UI\BossNotify\Duaca</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_DuacaEatNotifyIcon.cpp">
+      <Filter>02.GameObjects\UI\BossNotify\Duaca</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_SubQuestIcon.cpp">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_SubQuestPanel.cpp">
+      <Filter>02.GameObjects\UI\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_SmallMiniMapIcon.cpp">
+      <Filter>02.GameObjects\UI\MiniMap\SmallMiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_SmallMiniMapPanel.cpp">
+      <Filter>02.GameObjects\UI\MiniMap\SmallMiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_BigMiniMapIcon.cpp">
+      <Filter>02.GameObjects\UI\MiniMap\BigMiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_BigMiniMapPanel.cpp">
+      <Filter>02.GameObjects\UI\MiniMap\BigMiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_RecallIcon.cpp">
+      <Filter>02.GameObjects\UI\MiniMap\BigMiniMap\RecallIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_RecallPanel.cpp">
+      <Filter>02.GameObjects\UI\MiniMap\BigMiniMap\RecallIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_RecallInfoIcon.cpp">
+      <Filter>02.GameObjects\UI\MiniMap\BigMiniMap\RecallIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_RecallInfoPanel.cpp">
+      <Filter>02.GameObjects\UI\MiniMap\BigMiniMap\RecallIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuestMarkerPanel.cpp">
+      <Filter>02.GameObjects\UI\Quest\QuestMarker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_QuestMarkerDeco.cpp">
+      <Filter>02.GameObjects\UI\Quest\QuestMarker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_SubQuestListViewPanel.cpp">
+      <Filter>02.GameObjects\UI\Quest\SubQuestListView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_SubQuestListViewIcon.cpp">
+      <Filter>02.GameObjects\UI\Quest\SubQuestListView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_SkillCoolNotifyIcon.cpp">
+      <Filter>02.GameObjects\UI\SkillCoolNotify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_SkillCoolNotifyPanel.cpp">
+      <Filter>02.GameObjects\UI\SkillCoolNotify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PlayerDieIcon.cpp">
+      <Filter>02.GameObjects\UI\PlayerDie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PlayerDiePanel.cpp">
+      <Filter>02.GameObjects\UI\PlayerDie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_DuacaEscapeKey.cpp">
+      <Filter>02.GameObjects\UI\BossNotify\Duaca</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_RegionEntryPanel.cpp">
+      <Filter>02.GameObjects\UI\RegionNameNotifier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_RegionEntryDeco.cpp">
+      <Filter>02.GameObjects\UI\RegionNameNotifier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_FishingPanel.cpp">
+      <Filter>02.GameObjects\UI\Fishing\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_FishingIcon.cpp">
+      <Filter>02.GameObjects\UI\Fishing\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_FishingFailIcon.cpp">
+      <Filter>02.GameObjects\UI\Fishing\Fail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_FishingFailPanel.cpp">
+      <Filter>02.GameObjects\UI\Fishing\Fail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_EquipEnhancerPanel.cpp">
+      <Filter>02.GameObjects\UI\Enhancer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_EquipEnhancerIcon.cpp">
+      <Filter>02.GameObjects\UI\Enhancer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

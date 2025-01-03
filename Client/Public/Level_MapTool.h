@@ -263,6 +263,8 @@ private:
 	void    Load_SkillMenuUI();
 
 	
+
+
 	void    Load_DefalutUI();
 	CUI*    Load_DefalutUIWithChild(FILE* fin);
 	void    Load_BatchUI();

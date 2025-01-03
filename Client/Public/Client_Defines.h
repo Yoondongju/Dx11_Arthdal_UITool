@@ -3,7 +3,6 @@
 #include <process.h>
 
 
-
 namespace Client
 {
 	const unsigned int			g_iWinSizeX = { 1600 };

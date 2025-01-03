@@ -1,4 +1,7 @@
+#pragma once
+
 #include "Engine_Defines.h"
+
 
 namespace Engine
 {

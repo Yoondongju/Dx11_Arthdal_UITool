@@ -43,7 +43,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
-    <EnableUnitySupport>true</EnableUnitySupport>
+    <EnableUnitySupport>false</EnableUnitySupport>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -106,12 +106,14 @@
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>../../EngineSDK/Inc/;../Public/;../../Imgui;./</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <IncludeInUnityFile>true</IncludeInUnityFile>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>../../EngineSDK/lib/</AdditionalLibraryDirectories>
       <AdditionalDependencies>Engine.lib;DirectXTKd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/VERBOSE %(AdditionalOptions)</AdditionalOptions>
     </Link>
     <FxCompile>
       <ShaderType>Effect</ShaderType>
@@ -185,19 +187,73 @@
     <ClInclude Include="..\public\Player.h" />
     <ClInclude Include="..\Public\Sky.h" />
     <ClInclude Include="..\Public\Terrain.h" />
+    <ClInclude Include="..\Public\UI_BigMiniMapIcon.h" />
+    <ClInclude Include="..\Public\UI_BigMiniMapPanel.h" />
+    <ClInclude Include="..\Public\UI_DuacaEatNotifyIcon.h" />
+    <ClInclude Include="..\Public\UI_DuacaEatNotifyPanel.h" />
+    <ClInclude Include="..\Public\UI_DuacaEscapeKey.h" />
+    <ClInclude Include="..\Public\UI_DuacaHpIcon.h" />
+    <ClInclude Include="..\Public\UI_DuacaHpPanel.h" />
+    <ClInclude Include="..\Public\UI_EquipEnhancerIcon.h" />
+    <ClInclude Include="..\Public\UI_EquipEnhancerPanel.h" />
+    <ClInclude Include="..\Public\UI_EquipIcon.h" />
+    <ClInclude Include="..\Public\UI_EquipPanel.h" />
+    <ClInclude Include="..\Public\UI_FishingFailIcon.h" />
+    <ClInclude Include="..\Public\UI_FishingFailPanel.h" />
+    <ClInclude Include="..\Public\UI_FishingIcon.h" />
+    <ClInclude Include="..\Public\UI_FishingPanel.h" />
     <ClInclude Include="..\Public\UI_Icon.h" />
+    <ClInclude Include="..\Public\UI_ItemInfoIcon.h" />
+    <ClInclude Include="..\Public\UI_ItemInfoPanel.h" />
+    <ClInclude Include="..\Public\UI_ItemPickUpIcon.h" />
+    <ClInclude Include="..\Public\UI_ItemPickUpPanel.h" />
     <ClInclude Include="..\Public\UI_KeyPad.h" />
+    <ClInclude Include="..\Public\UI_KeyPadSkillIcon.h" />
     <ClInclude Include="..\Public\UI_MainMenuIcon.h" />
     <ClInclude Include="..\Public\UI_MainMenuPanel.h" />
     <ClInclude Include="..\Public\UI_Menu.h" />
     <ClInclude Include="..\Public\UI_InventoryStaticIcon.h" />
     <ClInclude Include="..\Public\UI_InventoryPanel.h" />
+    <ClInclude Include="..\Public\UI_PlayerDieIcon.h" />
+    <ClInclude Include="..\Public\UI_PlayerDiePanel.h" />
+    <ClInclude Include="..\Public\UI_PlayerExp.h" />
     <ClInclude Include="..\Public\UI_PlayerPanelHpMp.h" />
     <ClInclude Include="..\Public\UI_PlayerHp.h" />
     <ClInclude Include="..\Public\UI_PlayerMp.h" />
+    <ClInclude Include="..\Public\UI_PotionMenuDeco.h" />
+    <ClInclude Include="..\Public\UI_PotionMenuIcon.h" />
+    <ClInclude Include="..\Public\UI_PotionMenuPanel.h" />
+    <ClInclude Include="..\Public\UI_QuestIcon.h" />
+    <ClInclude Include="..\Public\UI_QuestMarkerDeco.h" />
+    <ClInclude Include="..\Public\UI_QuestMarkerPanel.h" />
+    <ClInclude Include="..\Public\UI_QuestPanel.h" />
+    <ClInclude Include="..\Public\UI_QuestSuccessDeco.h" />
+    <ClInclude Include="..\Public\UI_QuestSuccessIcon.h" />
+    <ClInclude Include="..\Public\UI_QuestSuccessPanel.h" />
+    <ClInclude Include="..\Public\UI_QuickSlotHelperFirst.h" />
+    <ClInclude Include="..\Public\UI_QuickSlotHelperSecond.h" />
+    <ClInclude Include="..\Public\UI_RecallIcon.h" />
+    <ClInclude Include="..\Public\UI_RecallInfoIcon.h" />
+    <ClInclude Include="..\Public\UI_RecallInfoPanel.h" />
+    <ClInclude Include="..\Public\UI_RecallPanel.h" />
+    <ClInclude Include="..\Public\UI_RegionEntryDeco.h" />
+    <ClInclude Include="..\Public\UI_RegionEntryPanel.h" />
+    <ClInclude Include="..\Public\UI_SkillCoolNotifyIcon.h" />
+    <ClInclude Include="..\Public\UI_SkillCoolNotifyPanel.h" />
     <ClInclude Include="..\Public\UI_SkillMenuDeco.h" />
     <ClInclude Include="..\Public\UI_SkillMenuIcon.h" />
     <ClInclude Include="..\Public\UI_SkillMenuPanel.h" />
+    <ClInclude Include="..\Public\UI_SmallMiniMapIcon.h" />
+    <ClInclude Include="..\Public\UI_SmallMiniMapPanel.h" />
+    <ClInclude Include="..\Public\UI_SubQuestIcon.h" />
+    <ClInclude Include="..\Public\UI_SubQuestListViewIcon.h" />
+    <ClInclude Include="..\Public\UI_SubQuestListViewPanel.h" />
+    <ClInclude Include="..\Public\UI_SubQuestPanel.h" />
+    <ClInclude Include="..\Public\UI_TalkDecoPanel.h" />
+    <ClInclude Include="..\Public\UI_TalkInteract.h" />
+    <ClInclude Include="..\Public\UI_TalkInteractPanel.h" />
+    <ClInclude Include="..\Public\UI_TradeNotifiPanel.h" />
+    <ClInclude Include="..\Public\UI_TradeNotifiIcon.h" />
     <ClInclude Include="..\Public\Weapon.h" />
     <ClInclude Include="Client.h" />
     <ClInclude Include="Resource.h" />
@@ -208,7 +264,9 @@
     <ClCompile Include="..\..\Imgui\imgui.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="..\..\Imgui\ImGuiFileDialog.cpp" />
+    <ClCompile Include="..\..\Imgui\ImGuiFileDialog.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="..\..\Imgui\ImGuizmo.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
@@ -247,19 +305,73 @@
     <ClCompile Include="..\private\Player.cpp" />
     <ClCompile Include="..\Private\Sky.cpp" />
     <ClCompile Include="..\Private\Terrain.cpp" />
+    <ClCompile Include="..\Private\UI_BigMiniMapIcon.cpp" />
+    <ClCompile Include="..\Private\UI_BigMiniMapPanel.cpp" />
+    <ClCompile Include="..\Private\UI_DuacaEatNotifyIcon.cpp" />
+    <ClCompile Include="..\Private\UI_DuacaEatNotifyPanel.cpp" />
+    <ClCompile Include="..\Private\UI_DuacaEscapeKey.cpp" />
+    <ClCompile Include="..\Private\UI_DuacaHpIcon.cpp" />
+    <ClCompile Include="..\Private\UI_DuacaHpPanel.cpp" />
+    <ClCompile Include="..\Private\UI_EquipEnhancerIcon.cpp" />
+    <ClCompile Include="..\Private\UI_EquipEnhancerPanel.cpp" />
+    <ClCompile Include="..\Private\UI_EquipIcon.cpp" />
+    <ClCompile Include="..\Private\UI_EquipPanel.cpp" />
+    <ClCompile Include="..\Private\UI_FishingFailIcon.cpp" />
+    <ClCompile Include="..\Private\UI_FishingFailPanel.cpp" />
+    <ClCompile Include="..\Private\UI_FishingIcon.cpp" />
+    <ClCompile Include="..\Private\UI_FishingPanel.cpp" />
     <ClCompile Include="..\Private\UI_Icon.cpp" />
+    <ClCompile Include="..\Private\UI_ItemInfoIcon.cpp" />
+    <ClCompile Include="..\Private\UI_ItemInfoPanel.cpp" />
+    <ClCompile Include="..\Private\UI_ItemPickUpIcon.cpp" />
+    <ClCompile Include="..\Private\UI_ItemPickUpPanel.cpp" />
     <ClCompile Include="..\Private\UI_KeyPad.cpp" />
+    <ClCompile Include="..\Private\UI_KeyPadSkillIcon.cpp" />
     <ClCompile Include="..\Private\UI_MainMenuIcon.cpp" />
     <ClCompile Include="..\Private\UI_MainMenuPanel.cpp" />
     <ClCompile Include="..\Private\UI_Menu.cpp" />
     <ClCompile Include="..\Private\UI_InventoryStaticIcon.cpp" />
     <ClCompile Include="..\Private\UI_InventoryPanel.cpp" />
+    <ClCompile Include="..\Private\UI_PlayerDieIcon.cpp" />
+    <ClCompile Include="..\Private\UI_PlayerDiePanel.cpp" />
+    <ClCompile Include="..\Private\UI_PlayerExp.cpp" />
     <ClCompile Include="..\Private\UI_PlayerPanelHpMp.cpp" />
     <ClCompile Include="..\Private\UI_PlayerHp.cpp" />
     <ClCompile Include="..\Private\UI_PlayerMp.cpp" />
+    <ClCompile Include="..\Private\UI_PotionMenuDeco.cpp" />
+    <ClCompile Include="..\Private\UI_PotionMenuIcon.cpp" />
+    <ClCompile Include="..\Private\UI_PotionMenuPanel.cpp" />
+    <ClCompile Include="..\Private\UI_QuestIcon.cpp" />
+    <ClCompile Include="..\Private\UI_QuestMarkerDeco.cpp" />
+    <ClCompile Include="..\Private\UI_QuestMarkerPanel.cpp" />
+    <ClCompile Include="..\Private\UI_QuestPanel.cpp" />
+    <ClCompile Include="..\Private\UI_QuestSuccessDeco.cpp" />
+    <ClCompile Include="..\Private\UI_QuestSuccessIcon.cpp" />
+    <ClCompile Include="..\Private\UI_QuestSuccessPanel.cpp" />
+    <ClCompile Include="..\Private\UI_QuickSlotHelperFirst.cpp" />
+    <ClCompile Include="..\Private\UI_QuickSlotHelperSecond.cpp" />
+    <ClCompile Include="..\Private\UI_RecallIcon.cpp" />
+    <ClCompile Include="..\Private\UI_RecallInfoIcon.cpp" />
+    <ClCompile Include="..\Private\UI_RecallInfoPanel.cpp" />
+    <ClCompile Include="..\Private\UI_RecallPanel.cpp" />
+    <ClCompile Include="..\Private\UI_RegionEntryDeco.cpp" />
+    <ClCompile Include="..\Private\UI_RegionEntryPanel.cpp" />
+    <ClCompile Include="..\Private\UI_SkillCoolNotifyIcon.cpp" />
+    <ClCompile Include="..\Private\UI_SkillCoolNotifyPanel.cpp" />
     <ClCompile Include="..\Private\UI_SkillMenuDeco.cpp" />
     <ClCompile Include="..\Private\UI_SkillMenuIcon.cpp" />
     <ClCompile Include="..\Private\UI_SkillMenuPanel.cpp" />
+    <ClCompile Include="..\Private\UI_SmallMiniMapIcon.cpp" />
+    <ClCompile Include="..\Private\UI_SmallMiniMapPanel.cpp" />
+    <ClCompile Include="..\Private\UI_SubQuestIcon.cpp" />
+    <ClCompile Include="..\Private\UI_SubQuestListViewIcon.cpp" />
+    <ClCompile Include="..\Private\UI_SubQuestListViewPanel.cpp" />
+    <ClCompile Include="..\Private\UI_SubQuestPanel.cpp" />
+    <ClCompile Include="..\Private\UI_TalkDecoPanel.cpp" />
+    <ClCompile Include="..\Private\UI_TalkInteract.cpp" />
+    <ClCompile Include="..\Private\UI_TalkInteractPanel.cpp" />
+    <ClCompile Include="..\Private\UI_TradeNotifiPanel.cpp" />
+    <ClCompile Include="..\Private\UI_TradeNotifiIcon.cpp" />
     <ClCompile Include="..\Private\Weapon.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="stdafx.cpp">

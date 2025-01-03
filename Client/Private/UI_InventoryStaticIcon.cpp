@@ -133,30 +133,30 @@ void CUI_InventoryStaticIcon::Update(_float fTimeDelta)
 	}
 
 
-	if (nullptr != m_pParentUI)			// 부모가 존재할때 항상 부모의 위치,스케일 따라가다가 특정 트리거때 이 조건을 푼다라는 생각하기 
-	{
-		if (false == isExcutingEvent)		// 이벤트 처리중이 아닐떼ㅐ만
-		{
-			_float fParentSizeX = m_pParentUI->Get_fSizeX();
-			_float fParentSizeY = m_pParentUI->Get_fSizeY();
-	
-			m_fX = (m_fOffsetRatioX * fParentSizeX) + m_pParentUI->Get_fX();
-			m_fY = (m_fOffsetRatioY * fParentSizeY) + m_pParentUI->Get_fY();
-			m_fSizeX = m_fOffsetSizeRatioX * fParentSizeX;
-			m_fSizeY = m_fOffsetSizeRatioY * fParentSizeY;
-	
-			m_fOriginSizeX = m_fSizeX;
-			m_fOriginSizeY = m_fSizeY;
-		}
-	}
-	else
-	{
-		if (false == isExcutingEvent)		// 이벤트 처리중이 아닐떼ㅐ만
-		{
-			m_fOriginSizeX = m_fSizeX;
-			m_fOriginSizeY = m_fSizeY;
-		}
-	}
+	//if (nullptr != m_pParentUI)			// 부모가 존재할때 항상 부모의 위치,스케일 따라가다가 특정 트리거때 이 조건을 푼다라는 생각하기 
+	//{
+	//	if (false == isExcutingEvent)		// 이벤트 처리중이 아닐떼ㅐ만
+	//	{
+	//		_float fParentSizeX = m_pParentUI->Get_fSizeX();
+	//		_float fParentSizeY = m_pParentUI->Get_fSizeY();
+	//
+	//		m_fX = (m_fOffsetRatioX * fParentSizeX) + m_pParentUI->Get_fX();
+	//		m_fY = (m_fOffsetRatioY * fParentSizeY) + m_pParentUI->Get_fY();
+	//		m_fSizeX = m_fOffsetSizeRatioX * fParentSizeX;
+	//		m_fSizeY = m_fOffsetSizeRatioY * fParentSizeY;
+	//
+	//		m_fOriginSizeX = m_fSizeX;
+	//		m_fOriginSizeY = m_fSizeY;
+	//	}
+	//}
+	//else
+	//{
+	//	if (false == isExcutingEvent)		// 이벤트 처리중이 아닐떼ㅐ만
+	//	{
+	//		m_fOriginSizeX = m_fSizeX;
+	//		m_fOriginSizeY = m_fSizeY;
+	//	}
+	//}
 
 
 
@@ -228,23 +228,26 @@ void CUI_InventoryStaticIcon::Render_Text()
 	//if (L"" == m_Font.strFontText)
 	//	return;
 
-	_int iTextLength = m_Font.strFontText.length();
-	_float fTextWidth = 12 * iTextLength;
-
-	_uint iGara = 0;
-	if (m_iInstanceId == 3)
-		iGara = 30.f;
-
-	_float fFontPosX = m_fX - (m_fSizeX * 0.5f) + 50.f + iGara - (fTextWidth * 0.5f);
-	_float fFontPosY = m_fY - (m_fSizeY * 0.5f) + 7.f;
-	
-	m_pGameInstance->Render_Text(TEXT("Font_145"),
-		to_wstring(m_iInstanceId).c_str(),// m_Font.strFontText.c_str(),
-		XMVectorSet(fFontPosX, fFontPosY, 0.f, 1.f),
-		XMVectorSet(1.f,1.f,0.f,1.f), // XMLoadFloat4(&m_Font.vFontColor),
-		0.f,
-		XMVectorSet(0.f, 0.f, 0.f, 1.f),
-		0.4f);
+	//_int iTextLength = m_Font.strFontText.length();
+	//_float fTextWidth = 12 * iTextLength;
+	//
+	//_uint iGara = 0;
+	//if (m_iInstanceId == 3)
+	//	iGara = 30.f;
+	//
+	//_float fFontPosX = m_fX - 800.f;
+	//_float fFontPosY = m_fY;
+	//
+	//_wstring TestPos = L"";
+	//TestPos += to_wstring((_uint)m_fX) + L"\n" + to_wstring((_uint)m_fY);
+	//
+	//m_pGameInstance->Render_Text(TEXT("Font_145"),
+	//	TestPos.c_str(),// m_Font.strFontText.c_str(),
+	//	XMVectorSet(fFontPosX, fFontPosY, 0.f, 1.f),
+	//	XMVectorSet(1.f,1.f,0.f,1.f), // XMLoadFloat4(&m_Font.vFontColor),
+	//	0.f,
+	//	XMVectorSet(0.f, 0.f, 0.f, 1.f),
+	//	0.27f);
 
 
 	//if (CLevel_MapTool::Get_PickedUI() == this)

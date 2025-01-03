@@ -19,6 +19,11 @@ public:
 		SKILLMENU_ICON,
 		SKILLMENU_DECO,
 
+		PORTIONMENU_ICON,
+		PORTIONMENU_DECO,
+		PORTIONMENU_DECO_2,
+	
+
 		BATHCING_GROUP_END
 	};
 
@@ -58,6 +63,16 @@ public:
 		case CUIBatch::SKILLMENU_DECO:
 			return L"SKILLMENU_DECO";
 			break;
+		case CUIBatch::PORTIONMENU_ICON:
+			return L"PORTIONMENU_ICON";
+			break;
+		case CUIBatch::PORTIONMENU_DECO:
+			return L"PORTIONMENU_DECO";
+			break;
+		case CUIBatch::PORTIONMENU_DECO_2:
+			return L"PORTIONMENU_DECO_2";
+			break;
+
 		default:
 			break;
 		}
